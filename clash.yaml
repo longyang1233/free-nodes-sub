@@ -1,465 +1,411 @@
 # Daily free nodes update
-# Generated: 2026-10-24 17:05 UTC
-# Tested working nodes: 60 (HTTP/SOCKS5 verified with Google generate_204)
+# Generated: 2026-10-25
+# Tested working nodes: 56 (HTTP/SOCKS5 verified with http://www.google.com/generate_204)
 # Subscription: https://raw.githubusercontent.com/longyang1233/free-nodes-sub/main/clash.yaml
 port: 7890
 socks-port: 7891
 allow-lan: false
 mode: rule
 log-level: info
-ipv6: false
+external-controller: 127.0.0.1:9090
 proxies:
-- name: '[freeSub_037] D___hos[____]_dokng.com_a88e970f'
-  type: http
-  server: 154.26.192.123
-  port: 10988
-  username: fQ67Dpe5dU
-  password: gs4BXwT6SW
-  tls: false
-- name: '[freeSub_007] C___hos[____]_dokng.com_7b001401'
-  type: http
-  server: 54.255.133.243
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_010] C___hos[_]_dokng.com_8853a869'
-  type: http
-  server: 13.214.213.66
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_014] U___ukn[__]_dokng.com_5642e684'
-  type: http
-  server: 54.169.228.182
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_013] C___hos_dokng.com_48f719bc'
+- name: HTTP-18.143.167.6-2080
   type: http
   server: 18.143.167.6
   port: 2080
   username: '1234'
   password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_018] C___hos[____]_dokng.com_ad732190'
-  type: http
-  server: 13.212.190.30
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_021] C___hos[__]_dokng.com_7c989a09'
-  type: http
-  server: 54.151.242.187
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_019] C___hos[____]_dokng.com_f4e9aa61'
-  type: http
-  server: 54.151.156.21
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_027] C___hos[____]_dokng.com_02ba6e35'
-  type: http
-  server: 13.229.54.109
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_036] C___hos[____]_dokng.com_a075a65c'
-  type: http
-  server: 47.129.174.248
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_110] D___hos[____]_dokng.com_09c15836'
+- name: HTTP-64.118.155.2-22222
   type: http
   server: 64.118.155.2
   port: 22222
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub_015] D___hos[_____]_dokng.com_054bd55d'
+- name: HTTP-18.143.144.220-2080
+  type: http
+  server: 18.143.144.220
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-13.214.213.66-2080
+  type: http
+  server: 13.214.213.66
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-13.250.6.200-2080
+  type: http
+  server: 13.250.6.200
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-13.212.207.226-2080
+  type: http
+  server: 13.212.207.226
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: SOCKS5-101.36.104.46-10808
   type: socks5
-  server: 123.58.219.171
+  server: 101.36.104.46
   port: 10808
-- name: '[freeSub_111] U___ukn[_]_dokng.com_abdcb3f0'
-  type: socks5
-  server: 66.215.197.108
-  port: 1080
-- name: '[freeSub_030] C___hos[_]_dokng.com_c79587f6'
-  type: socks5
-  server: 58.32.16.138
-  port: 7000
-  skip-cert-verify: true
-- name: '[freeSub_017] C___hos_dokng.com_099454ad'
-  type: socks5
-  server: 47.243.173.50
-  port: 11211
-  username: '111'
-  password: '111'
-  skip-cert-verify: true
-- name: '[freeSub_048] D___hos[____]_dokng.com_e52ce08d'
-  type: socks5
-  server: 113.22.224.63
-  port: 1083
-  udp: true
-- name: '[freeSub_212] D___hos_dokng.com_3d007aa8'
-  type: http
-  server: 213.171.212.110
-  port: 8080
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub_292] D___hos[____]_dokng.com_0514dcd9'
-  type: socks5
-  server: 51.15.20.32
-  port: 1088
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub_345] U___ukn[_____]_dokng.com_370fd547'
-  type: http
-  server: 195.154.191.26
-  port: 1086
-  skip-cert-verify: true
-- name: '[freeSub_388] U___ukn[____]_dokng.com_66aa609b'
-  type: http
-  server: 176.111.37.5
-  port: 39811
-- name: '[freeSub_401] C___hos_dokng.com_20c076b1'
-  type: http
-  server: 54.169.174.62
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub_403] C___hos[____]_dokng.com_17fbfe15'
-  type: http
-  server: 54.151.160.36
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_262] D___hos[____]_dokng.com_32c39b4c'
-  type: socks5
-  server: 69.55.49.177
-  port: 38182
-  skip-cert-verify: true
-- name: '[freeSub_267] D___hos[____]_dokng.com_33df4e4f'
-  type: socks5
-  server: 193.25.215.182
-  port: 22222
-  udp: true
-- name: '[freeSub_305] D___hos[____]_dokng.com_6f8afa89'
-  type: socks5
-  server: 213.199.47.140
-  port: 1080
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub_404] C___hos[____]_dokng.com_b83de358'
+- name: HTTP-13.212.55.110-2080
   type: http
   server: 13.212.55.110
   port: 2080
   username: '1234'
   password: '1234'
-  skip-cert-verify: true
-- name: '[freeSub_315] C___hos[____]_dokng.com_52724db1'
+- name: SOCKS5-101.36.104.239-10808
   type: socks5
-  server: 47.236.168.243
+  server: 101.36.104.239
+  port: 10808
+- name: HTTP-13.250.6.249-2080
+  type: http
+  server: 13.250.6.249
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-54.255.133.243-2080
+  type: http
+  server: 54.255.133.243
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-154.26.192.123-10988
+  type: http
+  server: 154.26.192.123
+  port: 10988
+  username: fQ67Dpe5dU
+  password: gs4BXwT6SW
+- name: HTTP-47.129.174.248-2080
+  type: http
+  server: 47.129.174.248
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-13.212.249.115-2080
+  type: http
+  server: 13.212.249.115
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-13.229.236.228-2080
+  type: http
+  server: 13.229.236.228
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-13.229.54.109-2080
+  type: http
+  server: 13.229.54.109
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: SOCKS5-113.22.224.63-1083
+  type: socks5
+  server: 113.22.224.63
+  port: 1083
+- name: SOCKS5-47.242.19.215-8899
+  type: socks5
+  server: 47.242.19.215
+  port: 8899
+  username: admin
+  password: admin
+- name: SOCKS5-104.168.249.36-1080
+  type: socks5
+  server: 104.168.249.36
   port: 1080
-  username: '8888'
-  password: '8888'
-  skip-cert-verify: true
-- name: '[freeSub_420] U___ukn[____]_dokng.com_ea3b1d36'
-  type: http
-  server: 176.111.37.216
-  port: 39811
-- name: '[NoMoreWalls_250] __SG_7|4.0MB_s'
-  type: http
-  server: 54.251.149.207
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[NoMoreWalls_251] __SG_8|4.5MB_s'
-  type: http
-  server: 13.212.14.88
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[NoMoreWalls_253] __SG_10|4.1MB_s'
+  username: test123
+  password: test123
+- name: HTTP-13.212.87.168-2080
   type: http
   server: 13.212.87.168
   port: 2080
   username: '1234'
   password: '1234'
-  skip-cert-verify: true
-- name: '[NoMoreWalls_254] __SG_11|4.1MB_s'
-  type: http
-  server: 13.250.8.222
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[NoMoreWalls_255] __SG_12|4.5MB_s'
-  type: http
-  server: 13.212.235.123
-  port: 2080
-  username: '1234'
-  password: '1234'
-  skip-cert-verify: true
-- name: '[AutoMerge_047] __US_3|1.7MB_s'
+- name: SOCKS5-123.58.219.171-10808
   type: socks5
-  server: 209.50.255.91
-  port: 1080
-- name: '[zhuhaiuk_014] JP - zhuhai.uk 02'
-  type: socks5
-  server: 101.36.104.239
+  server: 123.58.219.171
   port: 10808
-- name: '[zhuhaiuk_013] JP - zhuhai.uk'
+- name: SOCKS5-47.243.173.50-11211
   type: socks5
-  server: 101.36.104.46
-  port: 10808
-- name: '[freeSub_366] U___ukn_dokng.com_27e56da7'
+  server: 47.243.173.50
+  port: 11211
+  username: '111'
+  password: '111'
+- name: SOCKS5-107.191.47.162-1081
   type: socks5
-  server: 67.207.92.87
-  port: 1088
-- name: '__ 049  | __ 1MB_s'
+  server: 107.191.47.162
+  port: 1081
+- name: SOCKS5-5.255.99.75-1080
   type: socks5
-  server: 185.145.99.41
+  server: 5.255.99.75
   port: 1080
-- name: '[freeSub_354] U___ukn[____]_dokng.com_0b5b8e5'
+- name: SOCKS5-193.25.215.182-22222
+  type: socks5
+  server: 193.25.215.182
+  port: 22222
+- name: HTTP-176.111.37.216-39811
   type: http
-  server: 195.154.84.121
-  port: 10800
-  skip-cert-verify: true
-- name: '__TH_6|319KB_s|P002-260618 [1169b39c444e'
+  server: 176.111.37.216
+  port: 39811
+- name: SOCKS5-172.245.108.219-11080
   type: socks5
-  server: 47.87.97.94
-  port: 1080
-- name: '__ 017  | __ 32KB_s'
-  type: socks5
-  server: 106.107.236.110
-  port: 1080
-- name: '[freeSub_392] D___hos[____]_dokng.com_89a1c2d'
-  type: socks5
-  server: 89.191.226.64
-  port: 1080
-- name: '__CA_23|853KB_s|R002-260618 [6b8eff3aae1'
+  server: 172.245.108.219
+  port: 11080
+- name: HTTP-189.51.168.165-999
   type: http
-  server: 184.75.221.82
-  port: 3118
-- name: '[zhuhaiuk_015] KR - zhuhai.uk'
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-- name: '__DE_4|4.4MB_s|R002-260618 [3c848704dd46'
-  type: http
-  server: 103.237.102.191
-  port: 11111
-- name: '__US_113|685KB_s [0205d799a499]'
-  type: socks5
-  server: 104.168.249.36
-  port: 1080
-- name: '__KR²_1|0.7MB_s|GPT|X|History [453f7315c'
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-- name: '__EC_2|105KB_s|R002-260618 [dd220b029dbc'
-  type: http
-  server: 186.5.94.206
+  server: 189.51.168.165
   port: 999
-- name: '__DE_148|986KB_s|A001-260618 [d3220d48db'
-  type: socks5
-  server: 89.58.42.118
-  port: 3129
-- name: '__CM_1|408KB_s|M001-260618 [d74f7e094503'
+- name: HTTP-176.111.37.5-39811
   type: http
-  server: 102.244.78.61
-  port: 8084
-- name: '__CM_2|313KB_s|K001-260618 [fe4bd8e5278f'
-  type: http
-  server: 102.244.78.61
-  port: 8086
-- name: '__IN_1|987KB_s|K001-260618 [1daf1e9ab2c0'
-  type: socks5
-  server: 144.24.111.128
-  port: 1088
-- name: '__SG_101|453KB_s [56eaebb9d5cd]'
-  type: http
-  server: 13.229.57.163
-  port: 2080
-  username: '1234'
-  password: '1234'
-- name: '__SG_72|454KB_s|K001-260618 [59e06c16ed2'
-  type: http
-  server: 13.250.21.56
-  port: 2080
-  username: '1234'
-  password: '1234'
-- name: '__Other_17|213KB_s|R002-260618 [01246ba37'
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-- name: '__ 瑞典_FD843F'
-  type: socks5
-  server: 171.25.158.95
-  port: 1080
-- name: '__US_403|362KB_s|R002-260618 [f851240c66'
+  server: 176.111.37.5
+  port: 39811
+- name: SOCKS5-45.61.188.134-44499
   type: socks5
   server: 45.61.188.134
   port: 44499
-- name: '__Other_2|938KB_s|R002-260618 [5da6646dc4'
+- name: HTTP-103.237.102.191-11111
   type: http
   server: 103.237.102.191
   port: 11111
-- name: '__VN_2|218KB_s|P002-260618 [d4114298e4e3'
+- name: SOCKS5-101.36.104.239-10808-1
   type: socks5
-  server: 113.22.224.63
-  port: 1083
-- name: '__CA_35|589KB_s|R002-260618 [1aee0ee5c54'
+  server: 101.36.104.239
+  port: 10808
+- name: SOCKS5-106.107.236.110-1080
   type: socks5
-  server: 38.49.210.79
-  port: 40000
+  server: 106.107.236.110
+  port: 1080
+  username: '111'
+  password: '111'
+- name: HTTP-168.90.13.32-999
+  type: http
+  server: 168.90.13.32
+  port: 999
+- name: SOCKS5-69.55.49.177-38182
+  type: socks5
+  server: 69.55.49.177
+  port: 38182
+- name: SOCKS5-144.24.111.128-1088
+  type: socks5
+  server: 144.24.111.128
+  port: 1088
+- name: SOCKS5-47.236.168.243-1080
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: SOCKS5-129.213.192.89-1082
+  type: socks5
+  server: 129.213.192.89
+  port: 1082
+- name: HTTP-103.237.102.191-11111-1
+  type: http
+  server: 103.237.102.191
+  port: 11111
+- name: SOCKS5-212.77.75.25-1088
+  type: socks5
+  server: 212.77.75.25
+  port: 1088
+- name: HTTP-45.174.243.20-999
+  type: http
+  server: 45.174.243.20
+  port: 999
+- name: HTTP-102.244.78.61-8084
+  type: http
+  server: 102.244.78.61
+  port: 8084
+- name: HTTP-102.244.78.61-8086
+  type: http
+  server: 102.244.78.61
+  port: 8086
+- name: HTTP-38.51.207.104-8080
+  type: http
+  server: 38.51.207.104
+  port: 8080
+- name: HTTP-190.12.150.244-999
+  type: http
+  server: 190.12.150.244
+  port: 999
+- name: SOCKS5-121.169.46.116-1090
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+- name: SOCKS5-121.169.46.116-1090-1
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: VDJjbE0wUWxNMFE2Og
+  password: VDJjbE0wUWxNMFE2Og
+- name: SOCKS5-121.169.46.116-1090-2
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: T2clM0QlM0Q6
+- name: HTTP-82.152.138.127-999
+  type: http
+  server: 82.152.138.127
+  port: 999
+- name: HTTP-54.151.160.36-2080
+  type: http
+  server: 54.151.160.36
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-47.129.155.166-2080
+  type: http
+  server: 47.129.155.166
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-13.229.91.101-2080
+  type: http
+  server: 13.229.91.101
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: HTTP-54.251.149.207-2080
+  type: http
+  server: 54.251.149.207
+  port: 2080
+  username: '1234'
+  password: '1234'
+- name: SOCKS5-77.221.148.116-10808
+  type: socks5
+  server: 77.221.148.116
+  port: 10808
+- name: HTTP-38.194.236.106-999
+  type: http
+  server: 38.194.236.106
+  port: 999
+- name: HTTP-181.129.16.218-8080
+  type: http
+  server: 181.129.16.218
+  port: 8080
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
+  - HTTP-18.143.167.6-2080
+  - HTTP-64.118.155.2-22222
+  - HTTP-18.143.144.220-2080
+  - HTTP-13.214.213.66-2080
+  - HTTP-13.250.6.200-2080
+  - HTTP-13.212.207.226-2080
+  - SOCKS5-101.36.104.46-10808
+  - HTTP-13.212.55.110-2080
+  - SOCKS5-101.36.104.239-10808
+  - HTTP-13.250.6.249-2080
+  - HTTP-54.255.133.243-2080
+  - HTTP-154.26.192.123-10988
+  - HTTP-47.129.174.248-2080
+  - HTTP-13.212.249.115-2080
+  - HTTP-13.229.236.228-2080
+  - HTTP-13.229.54.109-2080
+  - SOCKS5-113.22.224.63-1083
+  - SOCKS5-47.242.19.215-8899
+  - SOCKS5-104.168.249.36-1080
+  - HTTP-13.212.87.168-2080
+  - SOCKS5-123.58.219.171-10808
+  - SOCKS5-47.243.173.50-11211
+  - SOCKS5-107.191.47.162-1081
+  - SOCKS5-5.255.99.75-1080
+  - SOCKS5-193.25.215.182-22222
+  - HTTP-176.111.37.216-39811
+  - SOCKS5-172.245.108.219-11080
+  - HTTP-189.51.168.165-999
+  - HTTP-176.111.37.5-39811
+  - SOCKS5-45.61.188.134-44499
+  - HTTP-103.237.102.191-11111
+  - SOCKS5-101.36.104.239-10808-1
+  - SOCKS5-106.107.236.110-1080
+  - HTTP-168.90.13.32-999
+  - SOCKS5-69.55.49.177-38182
+  - SOCKS5-144.24.111.128-1088
+  - SOCKS5-47.236.168.243-1080
+  - SOCKS5-129.213.192.89-1082
+  - HTTP-103.237.102.191-11111-1
+  - SOCKS5-212.77.75.25-1088
+  - HTTP-45.174.243.20-999
+  - HTTP-102.244.78.61-8084
+  - HTTP-102.244.78.61-8086
+  - HTTP-38.51.207.104-8080
+  - HTTP-190.12.150.244-999
+  - SOCKS5-121.169.46.116-1090
+  - SOCKS5-121.169.46.116-1090-1
+  - SOCKS5-121.169.46.116-1090-2
+  - HTTP-82.152.138.127-999
+  - HTTP-54.151.160.36-2080
+  - HTTP-47.129.155.166-2080
+  - HTTP-13.229.91.101-2080
+  - HTTP-54.251.149.207-2080
+  - SOCKS5-77.221.148.116-10808
+  - HTTP-38.194.236.106-999
+  - HTTP-181.129.16.218-8080
   - DIRECT
-  - '[freeSub_037] D___hos[____]_dokng.com_a88e970f'
-  - '[freeSub_007] C___hos[____]_dokng.com_7b001401'
-  - '[freeSub_010] C___hos[_]_dokng.com_8853a869'
-  - '[freeSub_014] U___ukn[__]_dokng.com_5642e684'
-  - '[freeSub_013] C___hos_dokng.com_48f719bc'
-  - '[freeSub_018] C___hos[____]_dokng.com_ad732190'
-  - '[freeSub_021] C___hos[__]_dokng.com_7c989a09'
-  - '[freeSub_019] C___hos[____]_dokng.com_f4e9aa61'
-  - '[freeSub_027] C___hos[____]_dokng.com_02ba6e35'
-  - '[freeSub_036] C___hos[____]_dokng.com_a075a65c'
-  - '[freeSub_110] D___hos[____]_dokng.com_09c15836'
-  - '[freeSub_015] D___hos[_____]_dokng.com_054bd55d'
-  - '[freeSub_111] U___ukn[_]_dokng.com_abdcb3f0'
-  - '[freeSub_030] C___hos[_]_dokng.com_c79587f6'
-  - '[freeSub_017] C___hos_dokng.com_099454ad'
-  - '[freeSub_048] D___hos[____]_dokng.com_e52ce08d'
-  - '[freeSub_212] D___hos_dokng.com_3d007aa8'
-  - '[freeSub_292] D___hos[____]_dokng.com_0514dcd9'
-  - '[freeSub_345] U___ukn[_____]_dokng.com_370fd547'
-  - '[freeSub_388] U___ukn[____]_dokng.com_66aa609b'
-  - '[freeSub_401] C___hos_dokng.com_20c076b1'
-  - '[freeSub_403] C___hos[____]_dokng.com_17fbfe15'
-  - '[freeSub_262] D___hos[____]_dokng.com_32c39b4c'
-  - '[freeSub_267] D___hos[____]_dokng.com_33df4e4f'
-  - '[freeSub_305] D___hos[____]_dokng.com_6f8afa89'
-  - '[freeSub_404] C___hos[____]_dokng.com_b83de358'
-  - '[freeSub_315] C___hos[____]_dokng.com_52724db1'
-  - '[freeSub_420] U___ukn[____]_dokng.com_ea3b1d36'
-  - '[NoMoreWalls_250] __SG_7|4.0MB_s'
-  - '[NoMoreWalls_251] __SG_8|4.5MB_s'
-  - '[NoMoreWalls_253] __SG_10|4.1MB_s'
-  - '[NoMoreWalls_254] __SG_11|4.1MB_s'
-  - '[NoMoreWalls_255] __SG_12|4.5MB_s'
-  - '[AutoMerge_047] __US_3|1.7MB_s'
-  - '[zhuhaiuk_014] JP - zhuhai.uk 02'
-  - '[zhuhaiuk_013] JP - zhuhai.uk'
-  - '[freeSub_366] U___ukn_dokng.com_27e56da7'
-  - '__ 049  | __ 1MB_s'
-  - '[freeSub_354] U___ukn[____]_dokng.com_0b5b8e5'
-  - '__TH_6|319KB_s|P002-260618 [1169b39c444e'
-  - '__ 017  | __ 32KB_s'
-  - '[freeSub_392] D___hos[____]_dokng.com_89a1c2d'
-  - '__CA_23|853KB_s|R002-260618 [6b8eff3aae1'
-  - '[zhuhaiuk_015] KR - zhuhai.uk'
-  - '__DE_4|4.4MB_s|R002-260618 [3c848704dd46'
-  - '__US_113|685KB_s [0205d799a499]'
-  - '__KR²_1|0.7MB_s|GPT|X|History [453f7315c'
-  - '__EC_2|105KB_s|R002-260618 [dd220b029dbc'
-  - '__DE_148|986KB_s|A001-260618 [d3220d48db'
-  - '__CM_1|408KB_s|M001-260618 [d74f7e094503'
-  - '__CM_2|313KB_s|K001-260618 [fe4bd8e5278f'
-  - '__IN_1|987KB_s|K001-260618 [1daf1e9ab2c0'
-  - '__SG_101|453KB_s [56eaebb9d5cd]'
-  - '__SG_72|454KB_s|K001-260618 [59e06c16ed2'
-  - '__Other_17|213KB_s|R002-260618 [01246ba37'
-  - '__ 瑞典_FD843F'
-  - '__US_403|362KB_s|R002-260618 [f851240c66'
-  - '__Other_2|938KB_s|R002-260618 [5da6646dc4'
-  - '__VN_2|218KB_s|P002-260618 [d4114298e4e3'
-  - '__CA_35|589KB_s|R002-260618 [1aee0ee5c54'
 - name: 自动选择
   type: url-test
-  proxies:
-  - '[freeSub_037] D___hos[____]_dokng.com_a88e970f'
-  - '[freeSub_007] C___hos[____]_dokng.com_7b001401'
-  - '[freeSub_010] C___hos[_]_dokng.com_8853a869'
-  - '[freeSub_014] U___ukn[__]_dokng.com_5642e684'
-  - '[freeSub_013] C___hos_dokng.com_48f719bc'
-  - '[freeSub_018] C___hos[____]_dokng.com_ad732190'
-  - '[freeSub_021] C___hos[__]_dokng.com_7c989a09'
-  - '[freeSub_019] C___hos[____]_dokng.com_f4e9aa61'
-  - '[freeSub_027] C___hos[____]_dokng.com_02ba6e35'
-  - '[freeSub_036] C___hos[____]_dokng.com_a075a65c'
-  - '[freeSub_110] D___hos[____]_dokng.com_09c15836'
-  - '[freeSub_015] D___hos[_____]_dokng.com_054bd55d'
-  - '[freeSub_111] U___ukn[_]_dokng.com_abdcb3f0'
-  - '[freeSub_030] C___hos[_]_dokng.com_c79587f6'
-  - '[freeSub_017] C___hos_dokng.com_099454ad'
-  - '[freeSub_048] D___hos[____]_dokng.com_e52ce08d'
-  - '[freeSub_212] D___hos_dokng.com_3d007aa8'
-  - '[freeSub_292] D___hos[____]_dokng.com_0514dcd9'
-  - '[freeSub_345] U___ukn[_____]_dokng.com_370fd547'
-  - '[freeSub_388] U___ukn[____]_dokng.com_66aa609b'
-  - '[freeSub_401] C___hos_dokng.com_20c076b1'
-  - '[freeSub_403] C___hos[____]_dokng.com_17fbfe15'
-  - '[freeSub_262] D___hos[____]_dokng.com_32c39b4c'
-  - '[freeSub_267] D___hos[____]_dokng.com_33df4e4f'
-  - '[freeSub_305] D___hos[____]_dokng.com_6f8afa89'
-  - '[freeSub_404] C___hos[____]_dokng.com_b83de358'
-  - '[freeSub_315] C___hos[____]_dokng.com_52724db1'
-  - '[freeSub_420] U___ukn[____]_dokng.com_ea3b1d36'
-  - '[NoMoreWalls_250] __SG_7|4.0MB_s'
-  - '[NoMoreWalls_251] __SG_8|4.5MB_s'
-  - '[NoMoreWalls_253] __SG_10|4.1MB_s'
-  - '[NoMoreWalls_254] __SG_11|4.1MB_s'
-  - '[NoMoreWalls_255] __SG_12|4.5MB_s'
-  - '[AutoMerge_047] __US_3|1.7MB_s'
-  - '[zhuhaiuk_014] JP - zhuhai.uk 02'
-  - '[zhuhaiuk_013] JP - zhuhai.uk'
-  - '[freeSub_366] U___ukn_dokng.com_27e56da7'
-  - '__ 049  | __ 1MB_s'
-  - '[freeSub_354] U___ukn[____]_dokng.com_0b5b8e5'
-  - '__TH_6|319KB_s|P002-260618 [1169b39c444e'
-  - '__ 017  | __ 32KB_s'
-  - '[freeSub_392] D___hos[____]_dokng.com_89a1c2d'
-  - '__CA_23|853KB_s|R002-260618 [6b8eff3aae1'
-  - '[zhuhaiuk_015] KR - zhuhai.uk'
-  - '__DE_4|4.4MB_s|R002-260618 [3c848704dd46'
-  - '__US_113|685KB_s [0205d799a499]'
-  - '__KR²_1|0.7MB_s|GPT|X|History [453f7315c'
-  - '__EC_2|105KB_s|R002-260618 [dd220b029dbc'
-  - '__DE_148|986KB_s|A001-260618 [d3220d48db'
-  - '__CM_1|408KB_s|M001-260618 [d74f7e094503'
-  - '__CM_2|313KB_s|K001-260618 [fe4bd8e5278f'
-  - '__IN_1|987KB_s|K001-260618 [1daf1e9ab2c0'
-  - '__SG_101|453KB_s [56eaebb9d5cd]'
-  - '__SG_72|454KB_s|K001-260618 [59e06c16ed2'
-  - '__Other_17|213KB_s|R002-260618 [01246ba37'
-  - '__ 瑞典_FD843F'
-  - '__US_403|362KB_s|R002-260618 [f851240c66'
-  - '__Other_2|938KB_s|R002-260618 [5da6646dc4'
-  - '__VN_2|218KB_s|P002-260618 [d4114298e4e3'
-  - '__CA_35|589KB_s|R002-260618 [1aee0ee5c54'
   url: http://www.google.com/generate_204
   interval: 300
   tolerance: 50
+  proxies:
+  - HTTP-18.143.167.6-2080
+  - HTTP-64.118.155.2-22222
+  - HTTP-18.143.144.220-2080
+  - HTTP-13.214.213.66-2080
+  - HTTP-13.250.6.200-2080
+  - HTTP-13.212.207.226-2080
+  - SOCKS5-101.36.104.46-10808
+  - HTTP-13.212.55.110-2080
+  - SOCKS5-101.36.104.239-10808
+  - HTTP-13.250.6.249-2080
+  - HTTP-54.255.133.243-2080
+  - HTTP-154.26.192.123-10988
+  - HTTP-47.129.174.248-2080
+  - HTTP-13.212.249.115-2080
+  - HTTP-13.229.236.228-2080
+  - HTTP-13.229.54.109-2080
+  - SOCKS5-113.22.224.63-1083
+  - SOCKS5-47.242.19.215-8899
+  - SOCKS5-104.168.249.36-1080
+  - HTTP-13.212.87.168-2080
+  - SOCKS5-123.58.219.171-10808
+  - SOCKS5-47.243.173.50-11211
+  - SOCKS5-107.191.47.162-1081
+  - SOCKS5-5.255.99.75-1080
+  - SOCKS5-193.25.215.182-22222
+  - HTTP-176.111.37.216-39811
+  - SOCKS5-172.245.108.219-11080
+  - HTTP-189.51.168.165-999
+  - HTTP-176.111.37.5-39811
+  - SOCKS5-45.61.188.134-44499
+  - HTTP-103.237.102.191-11111
+  - SOCKS5-101.36.104.239-10808-1
+  - SOCKS5-106.107.236.110-1080
+  - HTTP-168.90.13.32-999
+  - SOCKS5-69.55.49.177-38182
+  - SOCKS5-144.24.111.128-1088
+  - SOCKS5-47.236.168.243-1080
+  - SOCKS5-129.213.192.89-1082
+  - HTTP-103.237.102.191-11111-1
+  - SOCKS5-212.77.75.25-1088
+  - HTTP-45.174.243.20-999
+  - HTTP-102.244.78.61-8084
+  - HTTP-102.244.78.61-8086
+  - HTTP-38.51.207.104-8080
+  - HTTP-190.12.150.244-999
+  - SOCKS5-121.169.46.116-1090
+  - SOCKS5-121.169.46.116-1090-1
+  - SOCKS5-121.169.46.116-1090-2
+  - HTTP-82.152.138.127-999
+  - HTTP-54.151.160.36-2080
+  - HTTP-47.129.155.166-2080
+  - HTTP-13.229.91.101-2080
+  - HTTP-54.251.149.207-2080
+  - SOCKS5-77.221.148.116-10808
+  - HTTP-38.194.236.106-999
+  - HTTP-181.129.16.218-8080
 rules:
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
