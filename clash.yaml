@@ -2,348 +2,376 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  - 8.8.8.8
+  fallback:
+  - 1.1.1.1
+  - 8.8.4.4
 proxies:
-- name: A🟢🇪🇨res_dokng.com_714b1721
+- name: HTTP-134.199.192.3:3128
   type: http
-  server: 181.188.203.40
+  server: 134.199.192.3
+  port: 3128
+- name: HTTP-47.254.31.207:1080
+  type: http
+  server: 47.254.31.207
+  port: 1080
+- name: SOCKS5-107.174.30.92:1080
+  type: socks5
+  server: 107.174.30.92
+  port: 1080
+- name: SOCKS5-107.175.130.24:1080
+  type: socks5
+  server: 107.175.130.24
+  port: 1080
+- name: SOCKS5-45.61.188.134:44499
+  type: socks5
+  server: 45.61.188.134
+  port: 44499
+- name: HTTP-38.172.181.0:999
+  type: http
+  server: 38.172.181.0
   port: 999
-- name: C🟠🇭🇰hos[📺🔍]_dokng.com_099454ad
+- name: HTTP-103.237.102.191:11111
+  type: http
+  server: 103.237.102.191
+  port: 11111
+- name: HTTP-154.26.192.123:10988
+  type: http
+  server: 154.26.192.123
+  port: 10988
+  username: fQ67Dpe5dU
+  password: gs4BXwT6SW
+- name: SOCKS5-209.50.255.91:1080
+  type: socks5
+  server: 209.50.255.91
+  port: 1080
+- name: HTTP-82.152.138.127:999
+  type: http
+  server: 82.152.138.127
+  port: 999
+- name: SOCKS5-212.77.75.25:1088
+  type: socks5
+  server: 212.77.75.25
+  port: 1088
+- name: HTTP-102.244.78.61:8084
+  type: http
+  server: 102.244.78.61
+  port: 8084
+- name: SOCKS5-5.255.113.177:1080
+  type: socks5
+  server: 5.255.113.177
+  port: 1080
+- name: HTTP-96.126.112.152:20001
+  type: http
+  server: 96.126.112.152
+  port: 20001
+- name: SOCKS5-47.236.168.243:1080
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: SOCKS5-69.55.49.177:38182
+  type: socks5
+  server: 69.55.49.177
+  port: 38182
+- name: HTTP-189.51.168.164:999
+  type: http
+  server: 189.51.168.164
+  port: 999
+- name: SOCKS5-193.25.215.182:22222
+  type: socks5
+  server: 193.25.215.182
+  port: 22222
+- name: HTTP-195.154.84.121:10800
+  type: http
+  server: 195.154.84.121
+  port: 10800
+- name: SOCKS5-47.243.173.50:11211
   type: socks5
   server: 47.243.173.50
   port: 11211
   username: '111'
   password: '111'
-- name: C🟠🇭🇰hos_dokng.com_db363b3a
+- name: SOCKS5-8.209.236.192:1080
+  type: socks5
+  server: 8.209.236.192
+  port: 1080
+  username: '123456'
+  password: '123456'
+- name: HTTP-200.59.191.27:999
+  type: http
+  server: 200.59.191.27
+  port: 999
+- name: SOCKS5-8.219.122.8:9999
+  type: socks5
+  server: 8.219.122.8
+  port: 9999
+- name: SOCKS5-101.36.104.239:10808
+  type: socks5
+  server: 101.36.104.239
+  port: 10808
+- name: SOCKS5-5.255.123.162:1080
+  type: socks5
+  server: 5.255.123.162
+  port: 1080
+- name: HTTP-200.10.31.42:8081
+  type: http
+  server: 200.10.31.42
+  port: 8081
+- name: HTTP-176.111.37.216:39811
+  type: http
+  server: 176.111.37.216
+  port: 39811
+- name: SOCKS5-47.242.19.215:8899
   type: socks5
   server: 47.242.19.215
   port: 8899
   username: admin
   password: admin
-- name: C🟠🇯🇵hos[🤖📺🎭🎪]_dokng.com_16f5ab4e
-  type: socks5
-  server: 8.209.236.192
-  port: 1080
-  username: '123456'
-  password: '123456'
-- name: C🟠🇯🇵hos[🤖📺🎭🎪]_dokng.com_16f5ab
-  type: socks5
-  server: 8.209.236.192
-  port: 1080
-  username: '123456'
-  password: '123456'
-- name: D🔴🇦🇷hos[📺]_dokng.com_8f955eb8
+- name: HTTP-189.51.168.165:999
   type: http
-  server: 45.232.0.2
-  port: 8080
-- name: D🔴🇨🇲mob[🎬🤖📺🎪]_dokng.com_74082856
-  type: http
-  server: 102.244.78.61
-  port: 8086
-- name: D🔴🇪🇨hos_dokng.com_85fea4ef
-  type: http
-  server: 200.63.104.131
-  port: 8089
-- name: D🔴🇪🇨hos_dokng.com_92b633b5
-  type: http
-  server: 190.12.150.244
+  server: 189.51.168.165
   port: 999
-- name: D🔴🇮🇹hos[🎬🤖📺🎭]_dokng.com_1a8a89d2
-  type: socks5
-  server: 212.77.75.25
-  port: 1088
-- name: D🔴🇮🇹hos[🎬🤖📺🎭]_dokng.com_1a8a89
-  type: socks5
-  server: 212.77.75.25
-  port: 1088
-- name: D🔴🇯🇵hos[🎬🤖📺🎭]_dokng.com_5802486e
-  type: socks5
-  server: 101.36.104.239
-  port: 10808
-- name: D🔴🇯🇵hos[🤖📺🎭🎪]_dokng.com_1b81f86d
+- name: SOCKS5-101.36.104.46:10808
   type: socks5
   server: 101.36.104.46
   port: 10808
-- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
+- name: SOCKS5-185.145.99.41:1080
   type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VDJjbE0wUWxNMFE2Og
-  password: VDJjbE0wUWxNMFE2Og
-- name: D🔴🇳🇱hos[🎬🤖📺🎭]_dokng.com_433a1132
-  type: socks5
-  server: 5.255.113.177
-  port: 1080
-- name: D🔴🇳🇱hos[🎬🤖📺🎭]_dokng.com_433a11
-  type: socks5
-  server: 5.255.113.177
-  port: 1080
-- name: D🔴🇳🇱hos[🤖📺🎭🎪]_dokng.com_0a1478a1
-  type: socks5
-  server: 5.255.123.162
-  port: 1080
-- name: D🔴🇸🇬 hos[🎬🤖📺🎭]_dokng.com_52724db1
-  type: socks5
-  server: 47.236.168.243
-  port: 1080
-  username: '8888'
-  password: '8888'
-- name: D🔴🇸🇬 hos[🎬🤖📺🎭]_dokng.com_52724d
-  type: socks5
-  server: 47.236.168.243
-  port: 1080
-  username: '8888'
-  password: '8888'
-- name: D🔴🇸🇬 hos[🤖📺🔍]_dokng.com_1cfd1a3d
-  type: socks5
-  server: 8.219.122.8
-  port: 9999
-- name: D🔴🇸🇬 hos[🤖📺🔍]_dokng.com_1cfd1a3
-  type: socks5
-  server: 8.219.122.8
-  port: 9999
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e4f
-  type: socks5
-  server: 193.25.215.182
-  port: 22222
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e
-  type: socks5
-  server: 193.25.215.182
-  port: 22222
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_340f87
-  type: socks5
-  server: 45.61.188.134
-  port: 44499
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
-  type: socks5
-  server: 209.50.255.91
-  port: 1080
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e970f
-  type: http
-  server: 154.26.192.123
-  port: 10988
-  username: fQ67Dpe5dU
-  password: gs4BXwT6SW
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e97
-  type: http
-  server: 154.26.192.123
-  port: 10988
-  username: fQ67Dpe5dU
-  password: gs4BXwT6SW
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c1de67f0
-  type: socks5
-  server: 69.55.49.177
-  port: 38182
-- name: D🔴🇺🇸hos_dokng.com_180c6698
-  type: socks5
-  server: 45.61.129.165
-  port: 9050
-- name: D🔴🇻🇪 hos_dokng.com_16fab950
-  type: http
-  server: 38.172.181.0
-  port: 999
-- name: D🔴🇻🇪 hos_dokng.com_6ff07d24
-  type: http
-  server: 161.22.32.31
-  port: 8080
-- name: D🔴🇻🇪 hos_dokng.com_90ccb7e6
-  type: http
-  server: 38.121.212.134
-  port: 999
-- name: HK - zhuhai.uk 02
-  type: socks5
-  server: 123.58.219.171
-  port: 10808
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Og%3D%3D
-  password: Og%3D%3D
-- name: KR - zhuhai.uk
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-- name: US - zhuhai.uk 04
-  type: http
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  port: 443
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: U⚪🏳️ukn[🎬🤖📺🎭]_dokng.com_ea3b1d36
-  type: http
-  server: 176.111.37.216
-  port: 39811
-- name: U⚪🏳️ukn[🎭✨🎥]_dokng.com_0b409c03
-  type: http
-  server: 195.154.84.121
-  port: 10800
-- name: U⚪🏳️ukn[🎭✨🎥]_dokng.com_0b409c
-  type: http
-  server: 195.154.84.121
-  port: 10800
-- name: U⚪🏳️ukn[📺🎭]_dokng.com_6cc12663
-  type: http
-  server: 8.219.97.248
-  port: 80
-- name: U⚪🏳️ukn_dokng.com_24a6e4b9
-  type: socks5
-  server: 104.168.249.36
+  server: 185.145.99.41
   port: 1080
   username: test123
   password: test123
-- name: U⚪🏳️ukn_dokng.com_fa20483d
+- name: HTTP-200.52.148.212:999
   type: http
-  server: 82.152.138.127
+  server: 200.52.148.212
   port: 999
-- name: U⚪🏳️ukn_dokng.com_fe178131
+- name: HTTP-91.203.61.52:6789
   type: http
-  server: 200.10.31.42
-  port: 8081
-- name: '[NoMoreWalls#236] 🇺🇸US_242.1MB/s'
+  server: 91.203.61.52
+  port: 6789
+- name: SOCKS5-110.38.233.122:1080
   type: socks5
-  server: 45.61.188.134
-  port: 44499
-- name: ❓Other_2938KB/sR002-260618 [5da6646dc4f0
-  type: socks5
-  server: 91.107.179.68
-  port: 10809
-- name: 🇨🇦CA_36190KB/sR002-260618 [6b8eff3aae16]
+  server: 110.38.233.122
+  port: 1080
+- name: HTTP-8.219.97.248:80
+  type: http
+  server: 8.219.97.248
+  port: 80
+- name: HTTP-184.75.221.82:3118
   type: http
   server: 184.75.221.82
   port: 3118
-- name: 🇩🇪DE_285.1MB/sR002-260618 [3c848704dd46]
+- name: HTTP-173.205.202.241:8181
   type: http
-  server: 103.237.102.191
-  port: 11111
-- name: 🇮🇹IT_23716KB/sR002-260618 [aaf6029dcb7b]
-  type: socks5
-  server: 212.77.75.25
-  port: 1088
-- name: 🇰🇷KR²_10.7MB/sGPTXHistory [453f7315c21e]
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-- name: 🇳🇱NL_2456.1MB/sR002-260618 [35371aa7405d
-  type: socks5
-  server: 5.255.113.177
-  port: 1080
+  server: 173.205.202.241
+  port: 8181
+- name: HTTP-193.187.107.120:8095
+  type: http
+  server: 193.187.107.120
+  port: 8095
+- name: HTTP-34.43.46.91:80
+  type: http
+  server: 34.43.46.91
+  port: 80
+- name: HTTP-176.111.37.5:39811
+  type: http
+  server: 176.111.37.5
+  port: 39811
+- name: HTTP-38.172.160.16:999
+  type: http
+  server: 38.172.160.16
+  port: 999
+- name: HTTP-45.240.232.61:8080
+  type: http
+  server: 45.240.232.61
+  port: 8080
+- name: HTTP-103.179.218.7:8080
+  type: http
+  server: 103.179.218.7
+  port: 8080
+- name: HTTP-197.164.101.10:1981
+  type: http
+  server: 197.164.101.10
+  port: 1981
+- name: HTTP-187.190.58.152:80
+  type: http
+  server: 187.190.58.152
+  port: 80
+- name: HTTP-65.109.65.238:18080
+  type: http
+  server: 65.109.65.238
+  port: 18080
+- name: HTTP-151.237.84.9:8080
+  type: http
+  server: 151.237.84.9
+  port: 8080
+- name: HTTP-160.19.16.148:8181
+  type: http
+  server: 160.19.16.148
+  port: 8181
+- name: HTTP-103.166.255.170:8080
+  type: http
+  server: 103.166.255.170
+  port: 8080
+- name: HTTP-130.110.103.245:3128
+  type: http
+  server: 130.110.103.245
+  port: 3128
+- name: HTTP-186.182.6.191:3129
+  type: http
+  server: 186.182.6.191
+  port: 3129
+- name: HTTP-38.253.85.3:999
+  type: http
+  server: 38.253.85.3
+  port: 999
+- name: HTTP-103.156.75.246:8181
+  type: http
+  server: 103.156.75.246
+  port: 8181
+- name: HTTP-103.174.237.190:3125
+  type: http
+  server: 103.174.237.190
+  port: 3125
+- name: HTTP-103.172.42.123:1111
+  type: http
+  server: 103.172.42.123
+  port: 1111
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - A🟢🇪🇨res_dokng.com_714b1721
-  - C🟠🇭🇰hos[📺🔍]_dokng.com_099454ad
-  - C🟠🇭🇰hos_dokng.com_db363b3a
-  - C🟠🇯🇵hos[🤖📺🎭🎪]_dokng.com_16f5ab4e
-  - C🟠🇯🇵hos[🤖📺🎭🎪]_dokng.com_16f5ab
-  - D🔴🇦🇷hos[📺]_dokng.com_8f955eb8
-  - D🔴🇨🇲mob[🎬🤖📺🎪]_dokng.com_74082856
-  - D🔴🇪🇨hos_dokng.com_85fea4ef
-  - D🔴🇪🇨hos_dokng.com_92b633b5
-  - D🔴🇮🇹hos[🎬🤖📺🎭]_dokng.com_1a8a89d2
-  - D🔴🇮🇹hos[🎬🤖📺🎭]_dokng.com_1a8a89
-  - D🔴🇯🇵hos[🎬🤖📺🎭]_dokng.com_5802486e
-  - D🔴🇯🇵hos[🤖📺🎭🎪]_dokng.com_1b81f86d
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-  - D🔴🇳🇱hos[🎬🤖📺🎭]_dokng.com_433a1132
-  - D🔴🇳🇱hos[🎬🤖📺🎭]_dokng.com_433a11
-  - D🔴🇳🇱hos[🤖📺🎭🎪]_dokng.com_0a1478a1
-  - D🔴🇸🇬 hos[🎬🤖📺🎭]_dokng.com_52724db1
-  - D🔴🇸🇬 hos[🎬🤖📺🎭]_dokng.com_52724d
-  - D🔴🇸🇬 hos[🤖📺🔍]_dokng.com_1cfd1a3d
-  - D🔴🇸🇬 hos[🤖📺🔍]_dokng.com_1cfd1a3
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e4f
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_340f87
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e970f
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e97
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c1de67f0
-  - D🔴🇺🇸hos_dokng.com_180c6698
-  - D🔴🇻🇪 hos_dokng.com_16fab950
-  - D🔴🇻🇪 hos_dokng.com_6ff07d24
-  - D🔴🇻🇪 hos_dokng.com_90ccb7e6
-  - HK - zhuhai.uk 02
-  - KR - zhuhai.uk 02
-  - KR - zhuhai.uk
-  - US - zhuhai.uk 04
-  - U⚪🏳️ukn[🎬🤖📺🎭]_dokng.com_ea3b1d36
-  - U⚪🏳️ukn[🎭✨🎥]_dokng.com_0b409c03
-  - U⚪🏳️ukn[🎭✨🎥]_dokng.com_0b409c
-  - U⚪🏳️ukn[📺🎭]_dokng.com_6cc12663
-  - U⚪🏳️ukn_dokng.com_24a6e4b9
-  - U⚪🏳️ukn_dokng.com_fa20483d
-  - U⚪🏳️ukn_dokng.com_fe178131
-  - '[NoMoreWalls#236] 🇺🇸US_242.1MB/s'
-  - ❓Other_2938KB/sR002-260618 [5da6646dc4f0
-  - 🇨🇦CA_36190KB/sR002-260618 [6b8eff3aae16]
-  - 🇩🇪DE_285.1MB/sR002-260618 [3c848704dd46]
-  - 🇮🇹IT_23716KB/sR002-260618 [aaf6029dcb7b]
-  - 🇰🇷KR²_10.7MB/sGPTXHistory [453f7315c21e]
-  - 🇳🇱NL_2456.1MB/sR002-260618 [35371aa7405d
+  - HTTP-134.199.192.3:3128
+  - HTTP-47.254.31.207:1080
+  - SOCKS5-107.174.30.92:1080
+  - SOCKS5-107.175.130.24:1080
+  - SOCKS5-45.61.188.134:44499
+  - HTTP-38.172.181.0:999
+  - HTTP-103.237.102.191:11111
+  - HTTP-154.26.192.123:10988
+  - SOCKS5-209.50.255.91:1080
+  - HTTP-82.152.138.127:999
+  - SOCKS5-212.77.75.25:1088
+  - HTTP-102.244.78.61:8084
+  - SOCKS5-5.255.113.177:1080
+  - HTTP-96.126.112.152:20001
+  - SOCKS5-47.236.168.243:1080
+  - SOCKS5-69.55.49.177:38182
+  - HTTP-189.51.168.164:999
+  - SOCKS5-193.25.215.182:22222
+  - HTTP-195.154.84.121:10800
+  - SOCKS5-47.243.173.50:11211
+  - SOCKS5-8.209.236.192:1080
+  - HTTP-200.59.191.27:999
+  - SOCKS5-8.219.122.8:9999
+  - SOCKS5-101.36.104.239:10808
+  - SOCKS5-5.255.123.162:1080
+  - HTTP-200.10.31.42:8081
+  - HTTP-176.111.37.216:39811
+  - SOCKS5-47.242.19.215:8899
+  - HTTP-189.51.168.165:999
+  - SOCKS5-101.36.104.46:10808
+  - SOCKS5-185.145.99.41:1080
+  - HTTP-200.52.148.212:999
+  - HTTP-91.203.61.52:6789
+  - SOCKS5-110.38.233.122:1080
+  - HTTP-8.219.97.248:80
+  - HTTP-184.75.221.82:3118
+  - HTTP-173.205.202.241:8181
+  - HTTP-193.187.107.120:8095
+  - HTTP-34.43.46.91:80
+  - HTTP-176.111.37.5:39811
+  - HTTP-38.172.160.16:999
+  - HTTP-45.240.232.61:8080
+  - HTTP-103.179.218.7:8080
+  - HTTP-197.164.101.10:1981
+  - HTTP-187.190.58.152:80
+  - HTTP-65.109.65.238:18080
+  - HTTP-151.237.84.9:8080
+  - HTTP-160.19.16.148:8181
+  - HTTP-103.166.255.170:8080
+  - HTTP-130.110.103.245:3128
+  - HTTP-186.182.6.191:3129
+  - HTTP-38.253.85.3:999
+  - HTTP-103.156.75.246:8181
+  - HTTP-103.174.237.190:3125
+  - HTTP-103.172.42.123:1111
 - name: 自动选择
   type: url-test
   url: http://www.google.com/generate_204
   interval: 300
-  tolerance: 50
+  tolerance: 100
   proxies:
-  - A🟢🇪🇨res_dokng.com_714b1721
-  - C🟠🇭🇰hos[📺🔍]_dokng.com_099454ad
-  - C🟠🇭🇰hos_dokng.com_db363b3a
-  - C🟠🇯🇵hos[🤖📺🎭🎪]_dokng.com_16f5ab4e
-  - C🟠🇯🇵hos[🤖📺🎭🎪]_dokng.com_16f5ab
-  - D🔴🇦🇷hos[📺]_dokng.com_8f955eb8
-  - D🔴🇨🇲mob[🎬🤖📺🎪]_dokng.com_74082856
-  - D🔴🇪🇨hos_dokng.com_85fea4ef
-  - D🔴🇪🇨hos_dokng.com_92b633b5
-  - D🔴🇮🇹hos[🎬🤖📺🎭]_dokng.com_1a8a89d2
-  - D🔴🇮🇹hos[🎬🤖📺🎭]_dokng.com_1a8a89
-  - D🔴🇯🇵hos[🎬🤖📺🎭]_dokng.com_5802486e
-  - D🔴🇯🇵hos[🤖📺🎭🎪]_dokng.com_1b81f86d
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_ee2b07ac
-  - D🔴🇳🇱hos[🎬🤖📺🎭]_dokng.com_433a1132
-  - D🔴🇳🇱hos[🎬🤖📺🎭]_dokng.com_433a11
-  - D🔴🇳🇱hos[🤖📺🎭🎪]_dokng.com_0a1478a1
-  - D🔴🇸🇬 hos[🎬🤖📺🎭]_dokng.com_52724db1
-  - D🔴🇸🇬 hos[🎬🤖📺🎭]_dokng.com_52724d
-  - D🔴🇸🇬 hos[🤖📺🔍]_dokng.com_1cfd1a3d
-  - D🔴🇸🇬 hos[🤖📺🔍]_dokng.com_1cfd1a3
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e4f
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_340f87
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a7bd6d73
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e970f
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e97
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c1de67f0
-  - D🔴🇺🇸hos_dokng.com_180c6698
-  - D🔴🇻🇪 hos_dokng.com_16fab950
-  - D🔴🇻🇪 hos_dokng.com_6ff07d24
-  - D🔴🇻🇪 hos_dokng.com_90ccb7e6
-  - HK - zhuhai.uk 02
-  - KR - zhuhai.uk 02
-  - KR - zhuhai.uk
-  - US - zhuhai.uk 04
-  - U⚪🏳️ukn[🎬🤖📺🎭]_dokng.com_ea3b1d36
-  - U⚪🏳️ukn[🎭✨🎥]_dokng.com_0b409c03
-  - U⚪🏳️ukn[🎭✨🎥]_dokng.com_0b409c
-  - U⚪🏳️ukn[📺🎭]_dokng.com_6cc12663
-  - U⚪🏳️ukn_dokng.com_24a6e4b9
-  - U⚪🏳️ukn_dokng.com_fa20483d
-  - U⚪🏳️ukn_dokng.com_fe178131
-  - '[NoMoreWalls#236] 🇺🇸US_242.1MB/s'
-  - ❓Other_2938KB/sR002-260618 [5da6646dc4f0
-  - 🇨🇦CA_36190KB/sR002-260618 [6b8eff3aae16]
-  - 🇩🇪DE_285.1MB/sR002-260618 [3c848704dd46]
-  - 🇮🇹IT_23716KB/sR002-260618 [aaf6029dcb7b]
-  - 🇰🇷KR²_10.7MB/sGPTXHistory [453f7315c21e]
-  - 🇳🇱NL_2456.1MB/sR002-260618 [35371aa7405d
+  - HTTP-134.199.192.3:3128
+  - HTTP-47.254.31.207:1080
+  - SOCKS5-107.174.30.92:1080
+  - SOCKS5-107.175.130.24:1080
+  - SOCKS5-45.61.188.134:44499
+  - HTTP-38.172.181.0:999
+  - HTTP-103.237.102.191:11111
+  - HTTP-154.26.192.123:10988
+  - SOCKS5-209.50.255.91:1080
+  - HTTP-82.152.138.127:999
+  - SOCKS5-212.77.75.25:1088
+  - HTTP-102.244.78.61:8084
+  - SOCKS5-5.255.113.177:1080
+  - HTTP-96.126.112.152:20001
+  - SOCKS5-47.236.168.243:1080
+  - SOCKS5-69.55.49.177:38182
+  - HTTP-189.51.168.164:999
+  - SOCKS5-193.25.215.182:22222
+  - HTTP-195.154.84.121:10800
+  - SOCKS5-47.243.173.50:11211
+  - SOCKS5-8.209.236.192:1080
+  - HTTP-200.59.191.27:999
+  - SOCKS5-8.219.122.8:9999
+  - SOCKS5-101.36.104.239:10808
+  - SOCKS5-5.255.123.162:1080
+  - HTTP-200.10.31.42:8081
+  - HTTP-176.111.37.216:39811
+  - SOCKS5-47.242.19.215:8899
+  - HTTP-189.51.168.165:999
+  - SOCKS5-101.36.104.46:10808
+  - SOCKS5-185.145.99.41:1080
+  - HTTP-200.52.148.212:999
+  - HTTP-91.203.61.52:6789
+  - SOCKS5-110.38.233.122:1080
+  - HTTP-8.219.97.248:80
+  - HTTP-184.75.221.82:3118
+  - HTTP-173.205.202.241:8181
+  - HTTP-193.187.107.120:8095
+  - HTTP-34.43.46.91:80
+  - HTTP-176.111.37.5:39811
+  - HTTP-38.172.160.16:999
+  - HTTP-45.240.232.61:8080
+  - HTTP-103.179.218.7:8080
+  - HTTP-197.164.101.10:1981
+  - HTTP-187.190.58.152:80
+  - HTTP-65.109.65.238:18080
+  - HTTP-151.237.84.9:8080
+  - HTTP-160.19.16.148:8181
+  - HTTP-103.166.255.170:8080
+  - HTTP-130.110.103.245:3128
+  - HTTP-186.182.6.191:3129
+  - HTTP-38.253.85.3:999
+  - HTTP-103.156.75.246:8181
+  - HTTP-103.174.237.190:3125
+  - HTTP-103.172.42.123:1111
 rules:
 - DOMAIN-SUFFIX,google.com,节点选择
 - DOMAIN-SUFFIX,googleapis.com,节点选择
 - DOMAIN-SUFFIX,youtube.com,节点选择
-- DOMAIN-SUFFIX,ytimg.com,节点选择
-- DOMAIN-KEYWORD,google,节点选择
+- DOMAIN-SUFFIX,github.com,节点选择
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
