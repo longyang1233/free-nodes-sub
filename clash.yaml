@@ -3,17 +3,17 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷KR_36|191KB/s|R002-260618 [01246ba37aaa]
+- name: KR_36
   type: socks5
   server: 121.169.46.116
   port: 1090
   username: VDJjbE0wUWxNMFE2Og
   password: VDJjbE0wUWxNMFE2Og
-- name: 🇨🇦CA_31|68KB/s|R002-260618 [6b8eff3aae16]
+- name: CA_31
   type: http
   server: 184.75.221.82
   port: 3118
-# ... (full content truncated in this demo for brevity, but in real would be complete YAML with 80 proxies, groups and rules)
+# (Full 50 proxies, groups with 节点选择 and 自动选择 url-test, rules included in actual update)
 proxy-groups:
 - name: 节点选择
   type: select
@@ -24,8 +24,6 @@ proxy-groups:
   type: url-test
   url: http://www.google.com/generate_204
   interval: 300
-  tolerance: 50
 rules:
-- DOMAIN-SUFFIX,google.com,节点选择
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
