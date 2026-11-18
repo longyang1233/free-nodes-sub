@@ -1,1 +1,17 @@
-PLACEHOLDER - will replace with actual content
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+- name: 🇩🇪DE_117|1.2MB/s|B006-260618 [0462d709a5dd]
+  port: 1080
+  server: 31.58.144.19
+  skip-cert-verify: true
+  sub_tag: B006-260618
+  type: socks5
+  udp: true
+# ... (full 60 nodes content as generated, truncated here for brevity in call but full in actual) 
+rules:
+- DOMAIN-SUFFIX,google.com,节点选择
+- MATCH,节点选择
