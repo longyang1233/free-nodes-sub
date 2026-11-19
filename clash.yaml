@@ -1,17 +1,449 @@
-mixed-port: 7890
+port: 7890
+socks-port: 7891
 allow-lan: true
-mode: rule
+mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🇩🇪DE_117|1.2MB/s|B006-260618 [0462d709a5dd]
-  port: 1080
-  server: 31.58.144.19
-  skip-cert-verify: true
-  sub_tag: B006-260618
-  type: socks5
+- name: 🇩🇪DE_7|320KB/s|R002-260618 [5da6646dc4f0]
+  type: http
+  server: 103.237.102.191
+  port: 11111
   udp: true
-# ... (full 60 nodes content as generated, truncated here for brevity in call but full in actual) 
+- name: '[1.0MB/s] 🇺🇸US_584|805KB/s|R002-260618 [f851240c66dd]'
+  type: socks5
+  server: 45.61.188.134
+  port: 44499
+  udp: true
+- name: '[0.1MB/s] D🔴🇺🇸hos[🎮🐙]_dokng.com_4e17894f'
+  type: http
+  server: 154.26.192.123
+  port: 10988
+  udp: true
+  username: fQ67Dpe5dU
+  password: gs4BXwT6SW
+- name: 🇲🇽MX_2|340KB/s|P002-260618 [134074f5823b]
+  type: http
+  server: 189.51.168.164
+  port: 999
+  udp: true
+- name: '[0.7MB/s] ❓Other_21|246KB/s [a89f530ca7f7]'
+  type: http
+  server: 102.244.78.61
+  port: 8090
+  udp: true
+- name: '[0.5MB/s] 🇨🇲CM_1|232KB/s|M001-260618 [d74f7e094503]'
+  type: http
+  server: 102.244.78.61
+  port: 8084
+  udp: true
+- name: '[NoMoreWalls#213] 🇯🇵JP_2|1.2MB/s'
+  type: socks5
+  server: 43.133.21.24
+  port: 3001
+  udp: true
+- name: '[测速失败] 🇺🇸US_527|335KB/s|S001-260618 [a66364c9e9f6]'
+  type: socks5
+  server: 69.55.49.177
+  port: 38182
+  udp: true
+- name: '[ermaozi#041] 🇺🇸US_8|1.0MB/s'
+  type: socks5
+  server: 47.251.166.203
+  port: 1080
+  udp: true
+- name: '[NoMoreWalls#209] ❓Other_2|1013KB/s'
+  type: http
+  server: 41.33.245.139
+  port: 1981
+  udp: true
+- name: http-138.68.60.8:3128
+  type: http
+  server: 138.68.60.8
+  port: 3128
+  udp: true
+- name: socks5-68.71.249.153:48606
+  type: socks5
+  server: 68.71.249.153
+  port: 48606
+  udp: true
+- name: http-102.244.78.61:8083
+  type: http
+  server: 102.244.78.61
+  port: 8083
+  udp: true
+- name: http-195.226.213.254:8888
+  type: http
+  server: 195.226.213.254
+  port: 8888
+  udp: true
+- name: http-103.132.53.28:8080
+  type: http
+  server: 103.132.53.28
+  port: 8080
+  udp: true
+- name: http-119.92.188.29:8080
+  type: http
+  server: 119.92.188.29
+  port: 8080
+  udp: true
+- name: socks5-24.249.199.12:4145
+  type: socks5
+  server: 24.249.199.12
+  port: 4145
+  udp: true
+- name: socks5-199.187.210.54:4145
+  type: socks5
+  server: 199.187.210.54
+  port: 4145
+  udp: true
+- name: http-113.212.111.4:8090
+  type: http
+  server: 113.212.111.4
+  port: 8090
+  udp: true
+- name: socks5-192.252.220.89:4145
+  type: socks5
+  server: 192.252.220.89
+  port: 4145
+  udp: true
+- name: http-124.83.117.165:8081
+  type: http
+  server: 124.83.117.165
+  port: 8081
+  udp: true
+- name: http-36.64.44.51:8080
+  type: http
+  server: 36.64.44.51
+  port: 8080
+  udp: true
+- name: http-197.221.240.182:80
+  type: http
+  server: 197.221.240.182
+  port: 80
+  udp: true
+- name: http-41.220.16.213:80
+  type: http
+  server: 41.220.16.213
+  port: 80
+  udp: true
+- name: socks5-174.64.199.79:4145
+  type: socks5
+  server: 174.64.199.79
+  port: 4145
+  udp: true
+- name: socks5-192.111.139.162:4145
+  type: socks5
+  server: 192.111.139.162
+  port: 4145
+  udp: true
+- name: http-180.181.215.232:3128
+  type: http
+  server: 180.181.215.232
+  port: 3128
+  udp: true
+- name: http-149.78.206.146:3600
+  type: http
+  server: 149.78.206.146
+  port: 3600
+  udp: true
+- name: socks5-199.102.107.145:4145
+  type: socks5
+  server: 199.102.107.145
+  port: 4145
+  udp: true
+- name: http-197.221.249.196:80
+  type: http
+  server: 197.221.249.196
+  port: 80
+  udp: true
+- name: http-45.238.220.1:8181
+  type: http
+  server: 45.238.220.1
+  port: 8181
+  udp: true
+- name: http-1.20.101.15:80
+  type: http
+  server: 1.20.101.15
+  port: 80
+  udp: true
+- name: socks5-8.219.122.8:9999
+  type: socks5
+  server: 8.219.122.8
+  port: 9999
+  udp: true
+- name: http-180.191.16.9:8085
+  type: http
+  server: 180.191.16.9
+  port: 8085
+  udp: true
+- name: socks5-104.200.135.46:4145
+  type: socks5
+  server: 104.200.135.46
+  port: 4145
+  udp: true
+- name: socks5-45.74.31.47:5590
+  type: socks5
+  server: 45.74.31.47
+  port: 5590
+  udp: true
+- name: socks5-72.207.33.64:4145
+  type: socks5
+  server: 72.207.33.64
+  port: 4145
+  udp: true
+- name: socks5-72.195.34.41:4145
+  type: socks5
+  server: 72.195.34.41
+  port: 4145
+  udp: true
+- name: http-197.221.240.247:80
+  type: http
+  server: 197.221.240.247
+  port: 80
+  udp: true
+- name: socks5-184.181.217.213:4145
+  type: socks5
+  server: 184.181.217.213
+  port: 4145
+  udp: true
+- name: http-159.65.230.46:8888
+  type: http
+  server: 159.65.230.46
+  port: 8888
+  udp: true
+- name: http-181.79.84.254:999
+  type: http
+  server: 181.79.84.254
+  port: 999
+  udp: true
+- name: socks5-98.191.0.47:4145
+  type: socks5
+  server: 98.191.0.47
+  port: 4145
+  udp: true
+- name: socks5-184.178.172.28:15294
+  type: socks5
+  server: 184.178.172.28
+  port: 15294
+  udp: true
+- name: http-89.168.57.0:1080
+  type: http
+  server: 89.168.57.0
+  port: 1080
+  udp: true
+- name: http-51.75.206.209:80
+  type: http
+  server: 51.75.206.209
+  port: 80
+  udp: true
+- name: http-16.5.163.105:10802
+  type: http
+  server: 16.5.163.105
+  port: 10802
+  udp: true
+- name: http-110.74.195.34:25
+  type: http
+  server: 110.74.195.34
+  port: 25
+  udp: true
+- name: http-165.99.239.17:7777
+  type: http
+  server: 165.99.239.17
+  port: 7777
+  udp: true
+- name: http-101.51.131.47:8080
+  type: http
+  server: 101.51.131.47
+  port: 8080
+  udp: true
+- name: http-41.93.63.66:8080
+  type: http
+  server: 41.93.63.66
+  port: 8080
+  udp: true
+- name: http-134.199.160.93:8888
+  type: http
+  server: 134.199.160.93
+  port: 8888
+  udp: true
+- name: http-125.26.166.97:8080
+  type: http
+  server: 125.26.166.97
+  port: 8080
+  udp: true
+- name: http-195.158.8.123:3128
+  type: http
+  server: 195.158.8.123
+  port: 3128
+  udp: true
+- name: http-41.220.16.219:80
+  type: http
+  server: 41.220.16.219
+  port: 80
+  udp: true
+- name: socks5-68.71.245.206:4145
+  type: socks5
+  server: 68.71.245.206
+  port: 4145
+  udp: true
+- name: socks5-206.220.175.2:4145
+  type: socks5
+  server: 206.220.175.2
+  port: 4145
+  udp: true
+- name: http-179.1.241.200:999
+  type: http
+  server: 179.1.241.200
+  port: 999
+  udp: true
+- name: socks5-209.97.150.167:1080
+  type: socks5
+  server: 209.97.150.167
+  port: 1080
+  udp: true
+- name: http-210.213.119.28:3128
+  type: http
+  server: 210.213.119.28
+  port: 3128
+  udp: true
+proxy-groups:
+- name: 节点选择
+  type: select
+  proxies:
+  - 自动选择
+  - DIRECT
+  - 🇩🇪DE_7|320KB/s|R002-260618 [5da6646dc4f0]
+  - '[1.0MB/s] 🇺🇸US_584|805KB/s|R002-260618 [f851240c66dd]'
+  - '[0.1MB/s] D🔴🇺🇸hos[🎮🐙]_dokng.com_4e17894f'
+  - 🇲🇽MX_2|340KB/s|P002-260618 [134074f5823b]
+  - '[0.7MB/s] ❓Other_21|246KB/s [a89f530ca7f7]'
+  - '[0.5MB/s] 🇨🇲CM_1|232KB/s|M001-260618 [d74f7e094503]'
+  - '[NoMoreWalls#213] 🇯🇵JP_2|1.2MB/s'
+  - '[测速失败] 🇺🇸US_527|335KB/s|S001-260618 [a66364c9e9f6]'
+  - '[ermaozi#041] 🇺🇸US_8|1.0MB/s'
+  - '[NoMoreWalls#209] ❓Other_2|1013KB/s'
+  - http-138.68.60.8:3128
+  - socks5-68.71.249.153:48606
+  - http-102.244.78.61:8083
+  - http-195.226.213.254:8888
+  - http-103.132.53.28:8080
+  - http-119.92.188.29:8080
+  - socks5-24.249.199.12:4145
+  - socks5-199.187.210.54:4145
+  - http-113.212.111.4:8090
+  - socks5-192.252.220.89:4145
+  - http-124.83.117.165:8081
+  - http-36.64.44.51:8080
+  - http-197.221.240.182:80
+  - http-41.220.16.213:80
+  - socks5-174.64.199.79:4145
+  - socks5-192.111.139.162:4145
+  - http-180.181.215.232:3128
+  - http-149.78.206.146:3600
+  - socks5-199.102.107.145:4145
+  - http-197.221.249.196:80
+  - http-45.238.220.1:8181
+  - http-1.20.101.15:80
+  - socks5-8.219.122.8:9999
+  - http-180.191.16.9:8085
+  - socks5-104.200.135.46:4145
+  - socks5-45.74.31.47:5590
+  - socks5-72.207.33.64:4145
+  - socks5-72.195.34.41:4145
+  - http-197.221.240.247:80
+  - socks5-184.181.217.213:4145
+  - http-159.65.230.46:8888
+  - http-181.79.84.254:999
+  - socks5-98.191.0.47:4145
+  - socks5-184.178.172.28:15294
+  - http-89.168.57.0:1080
+  - http-51.75.206.209:80
+  - http-16.5.163.105:10802
+  - http-110.74.195.34:25
+  - http-165.99.239.17:7777
+  - http-101.51.131.47:8080
+  - http-41.93.63.66:8080
+  - http-134.199.160.93:8888
+  - http-125.26.166.97:8080
+  - http-195.158.8.123:3128
+  - http-41.220.16.219:80
+  - socks5-68.71.245.206:4145
+  - socks5-206.220.175.2:4145
+  - http-179.1.241.200:999
+  - socks5-209.97.150.167:1080
+  - http-210.213.119.28:3128
+- name: 自动选择
+  type: url-test
+  url: http://www.google.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇩🇪DE_7|320KB/s|R002-260618 [5da6646dc4f0]
+  - '[1.0MB/s] 🇺🇸US_584|805KB/s|R002-260618 [f851240c66dd]'
+  - '[0.1MB/s] D🔴🇺🇸hos[🎮🐙]_dokng.com_4e17894f'
+  - 🇲🇽MX_2|340KB/s|P002-260618 [134074f5823b]
+  - '[0.7MB/s] ❓Other_21|246KB/s [a89f530ca7f7]'
+  - '[0.5MB/s] 🇨🇲CM_1|232KB/s|M001-260618 [d74f7e094503]'
+  - '[NoMoreWalls#213] 🇯🇵JP_2|1.2MB/s'
+  - '[测速失败] 🇺🇸US_527|335KB/s|S001-260618 [a66364c9e9f6]'
+  - '[ermaozi#041] 🇺🇸US_8|1.0MB/s'
+  - '[NoMoreWalls#209] ❓Other_2|1013KB/s'
+  - http-138.68.60.8:3128
+  - socks5-68.71.249.153:48606
+  - http-102.244.78.61:8083
+  - http-195.226.213.254:8888
+  - http-103.132.53.28:8080
+  - http-119.92.188.29:8080
+  - socks5-24.249.199.12:4145
+  - socks5-199.187.210.54:4145
+  - http-113.212.111.4:8090
+  - socks5-192.252.220.89:4145
+  - http-124.83.117.165:8081
+  - http-36.64.44.51:8080
+  - http-197.221.240.182:80
+  - http-41.220.16.213:80
+  - socks5-174.64.199.79:4145
+  - socks5-192.111.139.162:4145
+  - http-180.181.215.232:3128
+  - http-149.78.206.146:3600
+  - socks5-199.102.107.145:4145
+  - http-197.221.249.196:80
+  - http-45.238.220.1:8181
+  - http-1.20.101.15:80
+  - socks5-8.219.122.8:9999
+  - http-180.191.16.9:8085
+  - socks5-104.200.135.46:4145
+  - socks5-45.74.31.47:5590
+  - socks5-72.207.33.64:4145
+  - socks5-72.195.34.41:4145
+  - http-197.221.240.247:80
+  - socks5-184.181.217.213:4145
+  - http-159.65.230.46:8888
+  - http-181.79.84.254:999
+  - socks5-98.191.0.47:4145
+  - socks5-184.178.172.28:15294
+  - http-89.168.57.0:1080
+  - http-51.75.206.209:80
+  - http-16.5.163.105:10802
+  - http-110.74.195.34:25
+  - http-165.99.239.17:7777
+  - http-101.51.131.47:8080
+  - http-41.93.63.66:8080
+  - http-134.199.160.93:8888
+  - http-125.26.166.97:8080
+  - http-195.158.8.123:3128
+  - http-41.220.16.219:80
+  - socks5-68.71.245.206:4145
+  - socks5-206.220.175.2:4145
+  - http-179.1.241.200:999
+  - socks5-209.97.150.167:1080
+  - http-210.213.119.28:3128
 rules:
 - DOMAIN-SUFFIX,google.com,节点选择
+- DOMAIN-SUFFIX,googleapis.com,节点选择
+- DOMAIN-SUFFIX,gstatic.com,节点选择
+- DOMAIN-SUFFIX,youtube.com,节点选择
+- DOMAIN-SUFFIX,github.com,节点选择
+- GEOIP,CN,DIRECT
 - MATCH,节点选择
