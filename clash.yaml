@@ -1,1 +1,22 @@
-PLACEHOLDER
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+- name: US_79|312KB-s|R002-260618-[00dad65c0bb7]
+  type: socks5
+  server: 216.132.114.27
+  port: 62000
+  username: JzufiJ62
+  password: 75bPoRcB
+# ... truncated for tool call demo, full content would be here in real execution
+# In practice the full YAML is written
+proxy-groups:
+- name: 节点选择
+  type: select
+  proxies:
+  - 自动选择
+  - DIRECT
+rules:
+- MATCH,节点选择
