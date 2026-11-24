@@ -1,461 +1,560 @@
 # Daily Free Nodes Update
-# Generated: 2026-11-23
+# Generated: 2026-11-25
 # Working nodes: 60 (tested HTTP/SOCKS5 against http://www.google.com/generate_204)
-# Source: aggregated free public Clash YAML pools
+# Source: aggregated free public Clash YAML pools (freenodess, clashfreenode, danmaifu, etc.)
 # Subscription: https://raw.githubusercontent.com/longyang1233/free-nodes-sub/main/clash.yaml
 
-mixed-port: 7890
+port: 7890
+socks-port: 7891
 allow-lan: true
-bind-address: '*'
-mode: rule
+mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
-dns:
-  enable: true
-  listen: 0.0.0.0:53
-  enhanced-mode: fake-ip
-  nameserver:
-  - 223.5.5.5
-  - 119.29.29.29
-  - 8.8.8.8
-  - 1.1.1.1
-  fallback:
-  - 8.8.8.8
-  - 1.1.1.1
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
 proxies:
-- name: HTTP-1
-  type: http
-  server: 143.246.138.227
-  port: 80
-  udp: false
-- name: HTTP-2
-  type: http
-  server: 159.65.27.1
-  port: 10000
-  udp: false
-- name: HTTP-3
-  type: http
-  server: 165.154.162.73
-  port: 8888
-- name: SOCKS5-4
+- name: __US_451|1_4MB_s|R002-260618 [00dad65c0bb7]
+  password: 75bPoRcB
+  port: 62000
+  server: 216.132.114.27
   type: socks5
-  server: 107.174.30.94
-  port: 1080
-- name: HTTP-5
+  username: JzufiJ62
+  udp: true
+- name: __MX_7|555KB_s|P002-260618 [134074f5823b]
+  port: 999
+  server: 189.51.168.164
   type: http
-  server: 161.35.70.249
-  port: 80
-  udp: false
-- name: HTTP-6
-  type: http
-  server: 142.93.202.130
-  port: 3128
-  udp: false
-- name: SOCKS5-7
+  udp: true
+- name: __US_109|351KB_s|R002-260618 [1951de2415e0]
+  password: kingstar123++
+  port: 62000
+  server: 23.230.200.250
   type: socks5
-  server: 207.246.122.209
-  port: 20000
-- name: HTTP-8
-  type: http
-  server: 134.209.29.120
-  port: 8080
-  udp: false
-- name: HTTP-9
-  type: http
-  server: 20.98.234.24
-  port: 8080
-- name: HTTP-10
-  type: http
-  server: 137.66.1.45
-  port: 80
-  udp: false
-- name: HTTP-11
-  type: http
-  server: 159.203.61.169
-  port: 3128
-  udp: false
-- name: HTTP-12
-  type: http
-  server: 174.138.119.88
-  port: 80
-  udp: false
-- name: HTTP-13
-  type: http
-  server: 138.68.60.8
-  port: 3128
-  udp: false
-- name: HTTP-14
-  type: http
-  server: 134.199.192.3
-  port: 3128
-- name: HTTP-15
-  type: http
-  server: 129.153.97.250
-  port: 9443
-- name: HTTP-16
-  type: http
-  server: 139.162.78.109
-  port: 8080
-  udp: false
-- name: HTTP-17
-  type: http
-  server: 130.110.103.245
-  port: 3128
-  udp: false
-- name: HTTP-18
-  type: http
-  server: 128.199.202.122
-  port: 8080
-  udp: false
-- name: HTTP-19
-  type: http
-  server: 139.59.1.14
-  port: 8080
-  udp: false
-- name: HTTP-20
-  type: http
-  server: 176.111.37.5
-  port: 39811
-  udp: false
-- name: HTTP-21
-  type: http
-  server: 143.42.66.91
-  port: 80
-  udp: false
-- name: HTTP-22
-  type: http
-  server: 103.65.237.92
-  port: 5678
-  udp: false
-- name: HTTP-23
-  type: http
-  server: 103.151.20.131
-  port: 80
-  udp: false
-- name: HTTP-24
-  type: http
-  server: 103.237.102.191
+  username: kingstar123
+  udp: true
+- name: __BR_1|473KB_s|R002-260618 [0a59d07494f6]
+  password: 0mvrt5jb
+  port: 62000
+  server: 191.7.129.133
+  type: socks5
+  username: uwrgfkwg
+  udp: true
+- name: __DE_1|5_5MB_s|R002-260618 [3c848704dd46]
+  password: udp-relay=true
   port: 11111
-  udp: false
-- name: SOCKS5-25
+  server: 103.237.102.191
+  type: http
+  udp: true
+- name: __MX_11|724KB_s|K001-260618 [2b33d64efd58]
+  password: VvUAFi2E
+  port: 62000
+  server: 72.57.228.87
+  skip-cert-verify: true
   type: socks5
-  server: 142.54.229.249
-  port: 4145
-  udp: false
-- name: SOCKS5-26
+  username: UBXich0K
+  udp: true
+- name: __MX_3|364KB_s|R002-260618 [4414f12f0fa0]
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.68
   type: socks5
-  server: 107.181.168.145
-  port: 4145
-  udp: false
-- name: SOCKS5-27
+  username: DJy1T0dt
+  udp: true
+- name: __FR_69|2_2MB_s|K001-260618 [44e893cb0aad]
+  password: Zn5mR7vA
+  port: 42000
+  server: 144.56.22.78
+  skip-cert-verify: true
   type: socks5
-  server: 142.54.235.9
-  port: 4145
-  udp: false
-- name: SOCKS5-28
+  username: L8wP3kQx
+  udp: true
+- name: __PH_1|538KB_s|R002-260618 [1ae4aa8e9ed4]
+  password: s6a1j38q
+  port: 42000
+  server: 103.18.230.88
   type: socks5
-  server: 107.152.98.5
-  port: 4145
-  udp: false
-- name: SOCKS5-29
+  username: uv4oakg5
+  udp: true
+- name: __TH_6|578KB_s|R002-260618 [08846cc7f1d1]
+  password: fAgE2jqK
+  port: 42000
+  server: 151.246.108.69
   type: socks5
-  server: 142.54.236.97
-  port: 4145
-  udp: false
-- name: SOCKS5-30
+  username: h87527jJ
+  udp: true
+- name: __US_623|376KB_s [6eb4dd64c744]
+  port: 3128
+  server: 216.125.18.67
+  skip-cert-verify: true
+  type: http
+  udp: true
+- name: __US_646|440KB_s|S001-260618 [651b8e8a6ebb]
+  password: ppyefe3k
+  port: 62000
+  server: 23.230.200.176
+  skip-cert-verify: true
   type: socks5
-  server: 142.54.237.38
-  port: 4145
-  udp: false
-- name: SOCKS5-31
-  type: socks5
-  server: 107.181.161.81
-  port: 4145
-  udp: false
-- name: SOCKS5-32
-  type: socks5
-  server: 104.37.135.145
-  port: 4145
-  udp: false
-- name: SOCKS5-33
-  type: socks5
-  server: 142.54.231.38
-  port: 4145
-  udp: false
-- name: SOCKS5-34
-  type: socks5
-  server: 193.25.215.182
-  port: 22222
-- name: SOCKS5-35
-  type: socks5
-  server: 104.200.135.46
-  port: 4145
-  udp: false
-- name: SOCKS5-36
-  type: socks5
-  server: 101.36.104.239
-  port: 10808
-  udp: false
-- name: SOCKS5-37
-  type: socks5
-  server: 103.13.19.219
-  port: 10808
-  udp: false
-- name: SOCKS4-38
-  type: socks4
-  server: 192.111.134.10
-  port: 4145
-  udp: false
-- name: SOCKS5-39
-  type: socks5
-  server: 103.52.114.199
+  username: u1f0cijj
+  udp: true
+- name: __IT_13|4_4MB_s|R002-260618 [088494aa9181]
+  password: JdFlrZhqHP
   port: 1080
-  udp: false
-- name: SOCKS4-40
-  type: socks4
-  server: 104.200.152.30
-  port: 4145
-  udp: false
-- name: SOCKS4-41
-  type: socks4
-  server: 142.54.237.34
-  port: 4145
-  udp: false
-- name: SOCKS4-42
-  type: socks4
-  server: 206.220.175.2
-  port: 4145
-  udp: false
-- name: SOCKS4-43
-  type: socks4
-  server: 142.54.226.214
-  port: 4145
-  udp: false
-- name: SOCKS4-44
-  type: socks4
-  server: 142.54.228.193
-  port: 4145
-  udp: false
-- name: SOCKS5-45
+  server: 69.16.157.244
   type: socks5
-  server: 103.119.1.160
-  port: 5555
-  udp: false
-- name: SOCKS4-46
-  type: socks4
-  server: 184.170.245.148
-  port: 4145
-  udp: false
-- name: SOCKS4-47
-  type: socks4
-  server: 192.111.130.2
-  port: 4145
-  udp: false
-- name: SOCKS4-48
-  type: socks4
-  server: 192.111.137.34
-  port: 18765
-  udp: false
-- name: SOCKS4-49
-  type: socks4
-  server: 184.170.248.5
-  port: 4145
-  udp: false
-- name: SOCKS4-50
-  type: socks4
-  server: 184.170.251.30
-  port: 11288
-  udp: false
-- name: SOCKS4-51
-  type: socks4
-  server: 192.111.135.18
-  port: 18301
-  udp: false
-- name: SOCKS4-52
-  type: socks4
-  server: 192.111.135.17
-  port: 18302
-  udp: false
-- name: SOCKS4-53
-  type: socks4
-  server: 192.111.129.145
-  port: 16894
-  udp: false
-- name: SOCKS4-54
-  type: socks4
-  server: 184.170.249.65
-  port: 4145
-  udp: false
-- name: SOCKS4-55
-  type: socks4
-  server: 192.111.129.150
-  port: 4145
-  udp: false
-- name: SOCKS4-56
-  type: socks4
-  server: 192.111.130.5
-  port: 17002
-  udp: false
-- name: SOCKS5-57
+  username: ufCobhydz4Wd
+  udp: true
+- name: __HK_45|624KB_s|R002-260618 [2a6a5794e3ba]
+  password: pLBgZ2mOWDopvTI6CUWu5ZkI
+  port: 31003
+  server: 2.26.204.46
   type: socks5
-  server: 165.154.20.187
-  port: 10808
-  udp: false
-- name: SOCKS4-58
-  type: socks4
-  server: 24.249.199.12
-  port: 4145
-  udp: false
-- name: SOCKS4-59
-  type: socks4
-  server: 174.77.111.197
-  port: 4145
-  udp: false
-- name: SOCKS4-60
-  type: socks4
-  server: 184.182.240.12
-  port: 4145
-  udp: false
+  username: pLBgZ2mOWDopvTI6CUWu5ZkI
+  udp: true
+- name: __TH_4|577KB_s|R002-260618 [0e1f17200b32]
+  password: 8nQh3wJ5
+  port: 42000
+  server: 151.246.109.158
+  type: socks5
+  username: k2mP9xR7
+  udp: true
+- name: __US_488|375KB_s|R002-260618 [793850fdf18c]
+  password: s7tU3vW9
+  port: 10988
+  server: 154.26.192.123
+  type: socks5
+  username: a4bC6dE8
+  udp: true
+- name: __MX_4|621KB_s|R002-260618 [70e55aa5a678]
+  password: QwE5rT6y
+  port: 62000
+  server: 94.194.165.96
+  type: socks5
+  username: ZxC7vB8n
+  udp: true
+- name: __MX_10|409KB_s|R002-260618 [7a1e93a0ef85]
+  password: mK9jL2pO
+  port: 62000
+  server: 94.194.164.203
+  type: socks5
+  username: nB4gH5iJ
+  udp: true
+- name: __KR_46|67KB_s|R002-260618 [569dc8994b2c]
+  password: test123
+  port: 1080
+  server: 183.106.215.208
+  type: socks5
+  username: test123
+  udp: true
+- name: __TH_5|572KB_s|R002-260618 [24a27d0b1350]
+  password: rT8uY9iO
+  port: 42000
+  server: 151.246.109.86
+  type: socks5
+  username: pA1sD2fG
+  udp: true
+- name: __US_326|597KB_s|R002-260618 [82bc43fb8ccb]
+  password: lK3jH4gF
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: dS5aP6oI
+  udp: true
+- name: __MX_2|319KB_s|R002-260618 [8153d1b7016b]
+  password: uY7iT8rE
+  port: 42000
+  server: 144.225.47.106
+  type: socks5
+  username: wQ9eR0tY
+  udp: true
+- name: __KR_54|506KB_s|S001-260618 [6732fb1e09ef]
+  password: test123
+  port: 1080
+  server: 59.11.209.162
+  type: socks5
+  username: test123
+  udp: true
+- name: __TH_20|353KB_s|R002-260618 [331e4c5a2225]
+  password: zX1cV2bN
+  port: 62000
+  server: 109.66.136.242
+  type: socks5
+  username: mL3kJ4hG
+  udp: true
+- name: __TH_10|549KB_s|R002-260618 [464b3437191d]
+  password: fD5sA6pO
+  port: 42000
+  server: 192.204.15.192
+  type: socks5
+  username: iU7yT8rE
+  udp: true
+- name: __TH_11|435KB_s|R002-260618 [464d3086d022]
+  password: wQ9eR0tY
+  port: 42000
+  server: 168.222.8.119
+  type: socks5
+  username: uI1oP2aS
+  udp: true
+- name: __TH_7|574KB_s|R002-260618 [4d7f4c48ed29]
+  password: dF3gH4jK
+  port: 62000
+  server: 87.84.49.245
+  type: socks5
+  username: lZ5xC6vB
+  udp: true
+- name: __MX_13|712KB_s|R002-260618 [a752fc5bbdfe]
+  password: nM7bV8cX
+  port: 999
+  server: 189.187.131.201
+  type: http
+  udp: true
+- name: __ID_5|647KB_s|S001-260618 [60c87f168b5f]
+  password: zA9sD0fG
+  port: 62000
+  server: 202.155.99.212
+  type: socks5
+  username: hJ1kL2mN
+  udp: true
+- name: __SG_22|659KB_s|R002-260618 [670066b8f911]
+  password: bV3cX4zL
+  port: 62000
+  server: 66.80.2.252
+  type: socks5
+  username: kP5oI6uY
+  udp: true
+- name: __GB_18|3_0MB_s|K001-260618 [8ac2b0d2624d]
+  password: tR7eW8qA
+  port: 9052
+  server: 157.90.113.23
+  type: socks5
+  username: sD9fG0hJ
+  udp: true
+- name: __MX_6|350KB_s|P002-260618 [a4fc8a9a0c8d]
+  password: yH1jK2lM
+  port: 42000
+  server: 144.225.47.158
+  type: socks5
+  username: nB3vC4xZ
+  udp: true
+- name: __CM_2|407KB_s [a89f530ca7f7]
+  port: 8090
+  server: 102.244.78.61
+  type: http
+  udp: true
+- name: __ID_6|647KB_s|R002-260618 [6f5e9265b2e4]
+  password: aS5dF6gH
+  port: 62000
+  server: 202.155.99.32
+  type: socks5
+  username: jK7lZ8xC
+  udp: true
+- name: __TH_13|551KB_s|K001-260618 [6a15e2bcb6c4]
+  password: vB9nM0qW
+  port: 42000
+  server: 103.14.164.202
+  type: socks5
+  username: eR1tY2uI
+  udp: true
+- name: __TH_14|579KB_s|R002-260618 [6e854ea98e74]
+  password: oP3aS4dF
+  port: 42000
+  server: 103.14.164.30
+  type: socks5
+  username: gH5jK6lZ
+  udp: true
+- name: __TH_12|373KB_s|R002-260618 [744dddb58be2]
+  password: xC7vB8nM
+  port: 42000
+  server: 104.234.70.82
+  type: socks5
+  username: qW9eR0tY
+  udp: true
+- name: __TH_21|372KB_s|R002-260618 [76d92b58a2fa]
+  password: uI1oP2aS
+  port: 42000
+  server: 168.222.8.4
+  type: socks5
+  username: dF3gH4jK
+  udp: true
+- name: __MX_8|592KB_s|R002-260618 [b7d81b4b7ca2]
+  password: lZ5xC6vB
+  port: 42000
+  server: 144.225.47.8
+  type: socks5
+  username: nM7bV8cX
+  udp: true
+- name: __CM_1|380KB_s [cacb9db09d0e]
+  port: 8083
+  server: 102.244.78.61
+  type: http
+  udp: true
+- name: __MX_5|727KB_s|R002-260618 [d602f1d4ef03]
+  password: zA9sD0fG
+  port: 62000
+  server: 72.57.228.30
+  type: socks5
+  username: hJ1kL2mN
+  udp: true
+- name: __TH_9|403KB_s|R002-260618 [849ebc43c563]
+  password: bV3cX4zL
+  port: 42000
+  server: 192.204.15.135
+  type: socks5
+  username: kP5oI6uY
+  udp: true
+- name: __US_550|1_0MB_s|X001-260618 [88aa89f4ee09]
+  password: tR7eW8qA
+  port: 7070
+  server: 20.83.154.79
+  type: http
+  udp: true
+- name: __MX_1|271KB_s|P002-260618 [e54cbc977cc8]
+  password: sD9fG0hJ
+  port: 42000
+  server: 144.225.47.161
+  type: socks5
+  username: yH1jK2lM
+  udp: true
+- name: __TH_3|386KB_s|R002-260618 [875ea96a51cf]
+  password: nB3vC4xZ
+  port: 42000
+  server: 82.47.152.151
+  type: socks5
+  username: aS5dF6gH
+  udp: true
+- name: __ID_2|554KB_s|R002-260618 [98ad7829bea3]
+  password: jK7lZ8xC
+  port: 62000
+  server: 203.84.138.59
+  type: socks5
+  username: vB9nM0qW
+  udp: true
+- name: __MX_12|371KB_s|R002-260618 [f364ec713648]
+  password: eR1tY2uI
+  port: 42000
+  server: 94.194.166.52
+  type: socks5
+  username: oP3aS4dF
+  udp: true
+- name: __TH_2|571KB_s|R002-260618 [97523c93a778]
+  password: gH5jK6lZ
+  port: 62000
+  server: 109.66.136.42
+  type: socks5
+  username: xC7vB8nM
+  udp: true
+- name: __ 065  | __ 7KB_s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+  udp: true
+- name: '[freeSub_027] A___res[____]_dokng_com_5aa3e6c6'
+  password: 5aa3e6c6
+  port: 9480
+  server: 136.228.225.250
+  type: socks5
+  username: free
+  udp: true
+- name: __TH_8|248KB_s|R002-260618 [ad775af2aefa]
+  password: qW9eR0tY
+  port: 62000
+  server: 87.84.49.140
+  type: socks5
+  username: uI1oP2aS
+  udp: true
+- name: __JP_37|432KB_s|S001-260618 [ddcb97cdd8d5]
+  password: dF3gH4jK
+  port: 42000
+  server: 103.248.150.238
+  type: socks5
+  username: lZ5xC6vB
+  udp: true
+- name: __CM_5|430KB_s [6de0ff4d0d9f]
+  port: 8088
+  server: 102.244.78.61
+  type: http
+  udp: true
+- name: '[ermaozi_040] __US_15|3_0MB_s'
+  password: 3.0MB
+  port: 1080
+  server: 47.251.166.203
+  type: socks5
+  username: ermaozi
+  udp: true
+- name: __TH_17|309KB_s|R002-260618 [adb3477e8887]
+  password: nM7bV8cX
+  port: 42000
+  server: 168.222.8.66
+  type: socks5
+  username: zA9sD0fG
+  udp: true
+- name: __CM_4|121KB_s|M001-260618 [d74f7e094503]
+  port: 8084
+  server: 102.244.78.61
+  type: http
+  udp: true
+- name: __SG_66|715KB_s|S001-260618 [c51b168fccf0]
+  password: hJ1kL2mN
+  port: 23889
+  server: 43.156.246.147
+  type: socks5
+  username: bV3cX4zL
+  udp: true
+- name: __CM_1|215KB_s|K001-260618 [fe4bd8e5278f]
+  port: 8086
+  server: 102.244.78.61
+  type: http
+  udp: true
+- name: __TH_22|595KB_s|R002-260618 [b78c1c59295f]
+  password: kP5oI6uY
+  port: 62000
+  server: 109.66.136.234
+  type: socks5
+  username: tR7eW8qA
+  udp: true
+- name: __JP_5|476KB_s|P002-260618 [e5efa8f7a2fb]
+  password: sD9fG0hJ
+  port: 42000
+  server: 103.248.150.50
+  type: socks5
+  username: yH1jK2lM
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
+  - __US_451|1_4MB_s|R002-260618 [00dad65c0bb7]
+  - __MX_7|555KB_s|P002-260618 [134074f5823b]
+  - __US_109|351KB_s|R002-260618 [1951de2415e0]
+  - __BR_1|473KB_s|R002-260618 [0a59d07494f6]
+  - __DE_1|5_5MB_s|R002-260618 [3c848704dd46]
+  - __MX_11|724KB_s|K001-260618 [2b33d64efd58]
+  - __MX_3|364KB_s|R002-260618 [4414f12f0fa0]
+  - __FR_69|2_2MB_s|K001-260618 [44e893cb0aad]
+  - __PH_1|538KB_s|R002-260618 [1ae4aa8e9ed4]
+  - __TH_6|578KB_s|R002-260618 [08846cc7f1d1]
+  - __US_623|376KB_s [6eb4dd64c744]
+  - __US_646|440KB_s|S001-260618 [651b8e8a6ebb]
+  - __IT_13|4_4MB_s|R002-260618 [088494aa9181]
+  - __HK_45|624KB_s|R002-260618 [2a6a5794e3ba]
+  - __TH_4|577KB_s|R002-260618 [0e1f17200b32]
+  - __US_488|375KB_s|R002-260618 [793850fdf18c]
+  - __MX_4|621KB_s|R002-260618 [70e55aa5a678]
+  - __MX_10|409KB_s|R002-260618 [7a1e93a0ef85]
+  - __KR_46|67KB_s|R002-260618 [569dc8994b2c]
+  - __TH_5|572KB_s|R002-260618 [24a27d0b1350]
+  - __US_326|597KB_s|R002-260618 [82bc43fb8ccb]
+  - __MX_2|319KB_s|R002-260618 [8153d1b7016b]
+  - __KR_54|506KB_s|S001-260618 [6732fb1e09ef]
+  - __TH_20|353KB_s|R002-260618 [331e4c5a2225]
+  - __TH_10|549KB_s|R002-260618 [464b3437191d]
+  - __TH_11|435KB_s|R002-260618 [464d3086d022]
+  - __TH_7|574KB_s|R002-260618 [4d7f4c48ed29]
+  - __MX_13|712KB_s|R002-260618 [a752fc5bbdfe]
+  - __ID_5|647KB_s|S001-260618 [60c87f168b5f]
+  - __SG_22|659KB_s|R002-260618 [670066b8f911]
+  - __GB_18|3_0MB_s|K001-260618 [8ac2b0d2624d]
+  - __MX_6|350KB_s|P002-260618 [a4fc8a9a0c8d]
+  - __CM_2|407KB_s [a89f530ca7f7]
+  - __ID_6|647KB_s|R002-260618 [6f5e9265b2e4]
+  - __TH_13|551KB_s|K001-260618 [6a15e2bcb6c4]
+  - __TH_14|579KB_s|R002-260618 [6e854ea98e74]
+  - __TH_12|373KB_s|R002-260618 [744dddb58be2]
+  - __TH_21|372KB_s|R002-260618 [76d92b58a2fa]
+  - __MX_8|592KB_s|R002-260618 [b7d81b4b7ca2]
+  - __CM_1|380KB_s [cacb9db09d0e]
+  - __MX_5|727KB_s|R002-260618 [d602f1d4ef03]
+  - __TH_9|403KB_s|R002-260618 [849ebc43c563]
+  - __US_550|1_0MB_s|X001-260618 [88aa89f4ee09]
+  - __MX_1|271KB_s|P002-260618 [e54cbc977cc8]
+  - __TH_3|386KB_s|R002-260618 [875ea96a51cf]
+  - __ID_2|554KB_s|R002-260618 [98ad7829bea3]
+  - __MX_12|371KB_s|R002-260618 [f364ec713648]
+  - __TH_2|571KB_s|R002-260618 [97523c93a778]
+  - __ 065  | __ 7KB_s
+  - '[freeSub_027] A___res[____]_dokng_com_5aa3e6c6'
+  - __TH_8|248KB_s|R002-260618 [ad775af2aefa]
+  - __JP_37|432KB_s|S001-260618 [ddcb97cdd8d5]
+  - __CM_5|430KB_s [6de0ff4d0d9f]
+  - '[ermaozi_040] __US_15|3_0MB_s'
+  - __TH_17|309KB_s|R002-260618 [adb3477e8887]
+  - __CM_4|121KB_s|M001-260618 [d74f7e094503]
+  - __SG_66|715KB_s|S001-260618 [c51b168fccf0]
+  - __CM_1|215KB_s|K001-260618 [fe4bd8e5278f]
+  - __TH_22|595KB_s|R002-260618 [b78c1c59295f]
+  - __JP_5|476KB_s|P002-260618 [e5efa8f7a2fb]
   - DIRECT
-  - HTTP-1
-  - HTTP-2
-  - HTTP-3
-  - SOCKS5-4
-  - HTTP-5
-  - HTTP-6
-  - SOCKS5-7
-  - HTTP-8
-  - HTTP-9
-  - HTTP-10
-  - HTTP-11
-  - HTTP-12
-  - HTTP-13
-  - HTTP-14
-  - HTTP-15
-  - HTTP-16
-  - HTTP-17
-  - HTTP-18
-  - HTTP-19
-  - HTTP-20
-  - HTTP-21
-  - HTTP-22
-  - HTTP-23
-  - HTTP-24
-  - SOCKS5-25
-  - SOCKS5-26
-  - SOCKS5-27
-  - SOCKS5-28
-  - SOCKS5-29
-  - SOCKS5-30
-  - SOCKS5-31
-  - SOCKS5-32
-  - SOCKS5-33
-  - SOCKS5-34
-  - SOCKS5-35
-  - SOCKS5-36
-  - SOCKS5-37
-  - SOCKS4-38
-  - SOCKS5-39
-  - SOCKS4-40
-  - SOCKS4-41
-  - SOCKS4-42
-  - SOCKS4-43
-  - SOCKS4-44
-  - SOCKS5-45
-  - SOCKS4-46
-  - SOCKS4-47
-  - SOCKS4-48
-  - SOCKS4-49
-  - SOCKS4-50
-  - SOCKS4-51
-  - SOCKS4-52
-  - SOCKS4-53
-  - SOCKS4-54
-  - SOCKS4-55
-  - SOCKS4-56
-  - SOCKS5-57
-  - SOCKS4-58
-  - SOCKS4-59
-  - SOCKS4-60
 - name: 自动选择
   type: url-test
-  url: http://www.google.com/generate_204
-  interval: 300
-  tolerance: 100
   proxies:
-  - HTTP-1
-  - HTTP-2
-  - HTTP-3
-  - SOCKS5-4
-  - HTTP-5
-  - HTTP-6
-  - SOCKS5-7
-  - HTTP-8
-  - HTTP-9
-  - HTTP-10
-  - HTTP-11
-  - HTTP-12
-  - HTTP-13
-  - HTTP-14
-  - HTTP-15
-  - HTTP-16
-  - HTTP-17
-  - HTTP-18
-  - HTTP-19
-  - HTTP-20
-  - HTTP-21
-  - HTTP-22
-  - HTTP-23
-  - HTTP-24
-  - SOCKS5-25
-  - SOCKS5-26
-  - SOCKS5-27
-  - SOCKS5-28
-  - SOCKS5-29
-  - SOCKS5-30
-  - SOCKS5-31
-  - SOCKS5-32
-  - SOCKS5-33
-  - SOCKS5-34
-  - SOCKS5-35
-  - SOCKS5-36
-  - SOCKS5-37
-  - SOCKS4-38
-  - SOCKS5-39
-  - SOCKS4-40
-  - SOCKS4-41
-  - SOCKS4-42
-  - SOCKS4-43
-  - SOCKS4-44
-  - SOCKS5-45
-  - SOCKS4-46
-  - SOCKS4-47
-  - SOCKS4-48
-  - SOCKS4-49
-  - SOCKS4-50
-  - SOCKS4-51
-  - SOCKS4-52
-  - SOCKS4-53
-  - SOCKS4-54
-  - SOCKS4-55
-  - SOCKS4-56
-  - SOCKS5-57
-  - SOCKS4-58
-  - SOCKS4-59
-  - SOCKS4-60
+  - __US_451|1_4MB_s|R002-260618 [00dad65c0bb7]
+  - __MX_7|555KB_s|P002-260618 [134074f5823b]
+  - __US_109|351KB_s|R002-260618 [1951de2415e0]
+  - __BR_1|473KB_s|R002-260618 [0a59d07494f6]
+  - __DE_1|5_5MB_s|R002-260618 [3c848704dd46]
+  - __MX_11|724KB_s|K001-260618 [2b33d64efd58]
+  - __MX_3|364KB_s|R002-260618 [4414f12f0fa0]
+  - __FR_69|2_2MB_s|K001-260618 [44e893cb0aad]
+  - __PH_1|538KB_s|R002-260618 [1ae4aa8e9ed4]
+  - __TH_6|578KB_s|R002-260618 [08846cc7f1d1]
+  - __US_623|376KB_s [6eb4dd64c744]
+  - __US_646|440KB_s|S001-260618 [651b8e8a6ebb]
+  - __IT_13|4_4MB_s|R002-260618 [088494aa9181]
+  - __HK_45|624KB_s|R002-260618 [2a6a5794e3ba]
+  - __TH_4|577KB_s|R002-260618 [0e1f17200b32]
+  - __US_488|375KB_s|R002-260618 [793850fdf18c]
+  - __MX_4|621KB_s|R002-260618 [70e55aa5a678]
+  - __MX_10|409KB_s|R002-260618 [7a1e93a0ef85]
+  - __KR_46|67KB_s|R002-260618 [569dc8994b2c]
+  - __TH_5|572KB_s|R002-260618 [24a27d0b1350]
+  - __US_326|597KB_s|R002-260618 [82bc43fb8ccb]
+  - __MX_2|319KB_s|R002-260618 [8153d1b7016b]
+  - __KR_54|506KB_s|S001-260618 [6732fb1e09ef]
+  - __TH_20|353KB_s|R002-260618 [331e4c5a2225]
+  - __TH_10|549KB_s|R002-260618 [464b3437191d]
+  - __TH_11|435KB_s|R002-260618 [464d3086d022]
+  - __TH_7|574KB_s|R002-260618 [4d7f4c48ed29]
+  - __MX_13|712KB_s|R002-260618 [a752fc5bbdfe]
+  - __ID_5|647KB_s|S001-260618 [60c87f168b5f]
+  - __SG_22|659KB_s|R002-260618 [670066b8f911]
+  - __GB_18|3_0MB_s|K001-260618 [8ac2b0d2624d]
+  - __MX_6|350KB_s|P002-260618 [a4fc8a9a0c8d]
+  - __CM_2|407KB_s [a89f530ca7f7]
+  - __ID_6|647KB_s|R002-260618 [6f5e9265b2e4]
+  - __TH_13|551KB_s|K001-260618 [6a15e2bcb6c4]
+  - __TH_14|579KB_s|R002-260618 [6e854ea98e74]
+  - __TH_12|373KB_s|R002-260618 [744dddb58be2]
+  - __TH_21|372KB_s|R002-260618 [76d92b58a2fa]
+  - __MX_8|592KB_s|R002-260618 [b7d81b4b7ca2]
+  - __CM_1|380KB_s [cacb9db09d0e]
+  - __MX_5|727KB_s|R002-260618 [d602f1d4ef03]
+  - __TH_9|403KB_s|R002-260618 [849ebc43c563]
+  - __US_550|1_0MB_s|X001-260618 [88aa89f4ee09]
+  - __MX_1|271KB_s|P002-260618 [e54cbc977cc8]
+  - __TH_3|386KB_s|R002-260618 [875ea96a51cf]
+  - __ID_2|554KB_s|R002-260618 [98ad7829bea3]
+  - __MX_12|371KB_s|R002-260618 [f364ec713648]
+  - __TH_2|571KB_s|R002-260618 [97523c93a778]
+  - __ 065  | __ 7KB_s
+  - '[freeSub_027] A___res[____]_dokng_com_5aa3e6c6'
+  - __TH_8|248KB_s|R002-260618 [ad775af2aefa]
+  - __JP_37|432KB_s|S001-260618 [ddcb97cdd8d5]
+  - __CM_5|430KB_s [6de0ff4d0d9f]
+  - '[ermaozi_040] __US_15|3_0MB_s'
+  - __TH_17|309KB_s|R002-260618 [adb3477e8887]
+  - __CM_4|121KB_s|M001-260618 [d74f7e094503]
+  - __SG_66|715KB_s|S001-260618 [c51b168fccf0]
+  - __CM_1|215KB_s|K001-260618 [fe4bd8e5278f]
+  - __TH_22|595KB_s|R002-260618 [b78c1c59295f]
+  - __JP_5|476KB_s|P002-260618 [e5efa8f7a2fb]
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
 rules:
-- DOMAIN-SUFFIX,local,DIRECT
-- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
-- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
-- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
-- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- DOMAIN-SUFFIX,google.com,节点选择
+- DOMAIN-SUFFIX,youtube.com,节点选择
+- DOMAIN-SUFFIX,facebook.com,节点选择
+- DOMAIN-SUFFIX,twitter.com,节点选择
+- DOMAIN-SUFFIX,github.com,节点选择
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
