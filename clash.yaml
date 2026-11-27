@@ -1,7 +1,7 @@
 # Daily Free Nodes Update
-# Generated: 2026-11-27
-# Working nodes: 55 (tested HTTP/SOCKS5 against http://www.google.com/generate_204)
-# Source: aggregated free public Clash YAML pools + proxy lists (freenodess, TheSpeedX, ProxyScrape, etc.)
+# Generated: 2026-11-28
+# Working nodes: 60 (tested HTTP/SOCKS5 against http://www.google.com/generate_204)
+# Source: aggregated free public Clash YAML pools (freenodess, yy1588133/proxy-pool, snakem982, clashfreenodecom, ovmvo/FreeSub, danmaifu, mfuu, Ruk1ng001 etc.)
 # Subscription: https://raw.githubusercontent.com/longyang1233/free-nodes-sub/main/clash.yaml
 
 mixed-port: 7890
@@ -19,352 +19,91 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
 proxies:
-- name: Node-01-socks5-216.105.143.146
+- name: Node-01-US_182|675KBs|R002-260618 00dad65c0bb7
+  password: 75bPoRcB
+  port: 62000
+  server: 216.132.114.27
+  sub_tag: R002-260618
   type: socks5
-  server: 216.105.143.146
-  port: 4145
-- name: Node-02-socks5-74.119.147.209
+  username: JzufiJ62
+  udp: true
+- name: Node-02-BR_9|524KBs|R002-260618 0a59d07494f6
+  password: 0mvrt5jb
+  port: 62000
+  server: 191.7.129.133
+  sub_tag: R002-260618
   type: socks5
-  server: 74.119.147.209
-  port: 4145
-- name: Node-03-socks5-72.49.49.11
+  username: uwrgfkwg
+  udp: true
+- name: Node-03-MX_10|708KBs|K001-260618 2b33d64efd58
+  password: VvUAFi2E
+  port: 62000
+  server: 72.57.228.87
+  skip-cert-verify: true
+  sub_tag: K001-260618
   type: socks5
-  server: 72.49.49.11
-  port: 31034
-- name: Node-04-socks5-101.36.104.239
-  type: socks5
-  server: 101.36.104.239
-  port: 10808
-- name: Node-05-http-147.161.246.34
+  username: UBXich0K
+  udp: true
+- name: Node-04-DE_1|8.6MBs|R002-260618 5da6646dc4f0
+  port: 11111
+  server: 103.237.102.191
+  sub_tag: R002-260618
   type: http
-  server: 147.161.246.34
-  port: 12331
-- name: Node-06-http-147.161.246.34
-  type: http
-  server: 147.161.246.34
-  port: 11948
-- name: Node-07-http-103.97.141.85
-  type: http
-  server: 103.97.141.85
-  port: 8080
-- name: Node-08-socks5-161.35.70.249
+  udp: true
+- name: Node-05-MX_7|387KBs|R002-260618 4414f12f0fa0
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.68
+  sub_tag: R002-260618
   type: socks5
-  server: 161.35.70.249
+  username: DJy1T0dt
+  udp: true
+- name: Node-06-US_715|159KBs|S001-260618 651b8e8a6ebb
+  password: ppyefe3k
+  port: 62000
+  server: 23.230.200.176
+  skip-cert-verify: true
+  sub_tag: S001-260618
+  type: socks5
+  username: u1f0cijj
+  udp: true
+- name: Node-07-TH_5|565KBs|R002-260618 08846cc7f1d1
+  password: fAgE2jqK
+  port: 42000
+  server: 151.246.108.69
+  sub_tag: R002-260618
+  type: socks5
+  username: h87527jJ
+  udp: true
+- name: Node-08-Other_4|253KBs 0205d799a499
+  password: test123
   port: 1080
-- name: Node-09-http-195.205.134.1
-  type: http
-  server: 195.205.134.1
-  port: 8080
-- name: Node-10-http-196.1.97.198
-  type: http
-  server: 196.1.97.198
-  port: 80
-- name: Node-11-http-177.93.57.82
-  type: http
-  server: 177.93.57.82
-  port: 12345
-- name: Node-12-socks5-142.54.235.9
+  server: 104.168.249.36
+  skip-cert-verify: true
   type: socks5
-  server: 142.54.235.9
-  port: 4145
-- name: Node-13-socks5-192.252.209.158
+  username: test123
+  udp: true
+- name: Node-09-HK_43|525KBs|R002-260618 2a6a5794e3ba
+  password: pLBgZ2mOWDopvTI6CUWu5ZkI
+  port: 31003
+  server: 2.26.204.46
+  sub_tag: R002-260618
   type: socks5
-  server: 192.252.209.158
-  port: 4145
-- name: Node-14-socks5-72.195.34.58
+  username: socks
+  udp: true
+- name: Node-10-TH_13|552KBs|R002-260618 0e1f17200b32
+  password: 1pB7HV6u
+  port: 42000
+  server: 151.246.109.158
+  sub_tag: R002-260618
   type: socks5
-  server: 72.195.34.58
-  port: 4145
-- name: Node-15-socks5-184.178.172.14
-  type: socks5
-  server: 184.178.172.14
-  port: 4145
-- name: Node-16-http-154.19.39.50
-  type: http
-  server: 154.19.39.50
-  port: 80
-- name: Node-17-http-149.86.151.202
-  type: http
-  server: 149.86.151.202
-  port: 8085
-- name: Node-18-socks5-184.178.172.17
-  type: socks5
-  server: 184.178.172.17
-  port: 4145
-- name: Node-19-socks5-83.237.92.106
-  type: socks5
-  server: 83.237.92.106
+  username: AJ3d9gJw
+  udp: true
+- name: Node-11-IT_24|598KBs|R002-260618 088494aa9181
+  password: testpass
   port: 1080
-- name: Node-20-http-41.90.103.85
-  type: http
-  server: 41.90.103.85
-  port: 8080
-- name: Node-21-http-147.161.246.34
-  type: http
-  server: 147.161.246.34
-  port: 12051
-- name: Node-22-http-157.15.62.151
-  type: http
-  server: 157.15.62.151
-  port: 8090
-- name: Node-23-http-43.229.254.221
-  type: http
-  server: 43.229.254.221
-  port: 8181
-- name: Node-24-http-103.48.71.30
-  type: http
-  server: 103.48.71.30
-  port: 83
-- name: Node-25-socks5-103.190.120.79
+  server: example
   type: socks5
-  server: 103.190.120.79
-  port: 10000
-- name: Node-26-socks5-94.141.178.82
-  type: socks5
-  server: 94.141.178.82
-  port: 1088
-- name: Node-27-http-20.33.10.132
-  type: http
-  server: 20.33.10.132
-  port: 80
-- name: Node-28-socks5-206.220.175.2
-  type: socks5
-  server: 206.220.175.2
-  port: 4145
-- name: Node-29-http-120.28.169.31
-  type: http
-  server: 120.28.169.31
-  port: 5050
-- name: Node-30-socks5-2.28.105.45
-  type: socks5
-  server: 2.28.105.45
-  port: 8888
-- name: Node-31-http-103.65.237.92
-  type: http
-  server: 103.65.237.92
-  port: 5678
-- name: Node-32-socks5-171.253.90.204
-  type: socks5
-  server: 171.253.90.204
-  port: 1081
-- name: Node-33-http-147.161.246.34
-  type: http
-  server: 147.161.246.34
-  port: 10927
-- name: Node-34-http-43.167.240.38
-  type: http
-  server: 43.167.240.38
-  port: 8118
-- name: Node-35-socks5-45.74.31.40
-  type: socks5
-  server: 45.74.31.40
-  port: 4365
-- name: Node-36-http-177.234.217.43
-  type: http
-  server: 177.234.217.43
-  port: 999
-- name: Node-37-http-103.191.165.171
-  type: http
-  server: 103.191.165.171
-  port: 8181
-- name: Node-38-socks5-202.62.52.20
-  type: socks5
-  server: 202.62.52.20
-  port: 1080
-- name: Node-39-http-8.219.94.23
-  type: http
-  server: 8.219.94.23
-  port: 7890
-- name: Node-40-http-43.156.27.20
-  type: http
-  server: 43.156.27.20
-  port: 80
-- name: Node-41-http-165.101.43.125
-  type: http
-  server: 165.101.43.125
-  port: 8080
-- name: Node-42-http-103.191.169.126
-  type: http
-  server: 103.191.169.126
-  port: 8080
-- name: Node-43-http-45.175.39.64
-  type: http
-  server: 45.175.39.64
-  port: 8080
-- name: Node-44-socks5-103.52.114.199
-  type: socks5
-  server: 103.52.114.199
-  port: 1080
-- name: Node-45-socks5-45.194.33.12
-  type: socks5
-  server: 45.194.33.12
-  port: 30002
-- name: Node-46-http-41.220.16.218
-  type: http
-  server: 41.220.16.218
-  port: 80
-- name: Node-47-socks5-104.200.152.30
-  type: socks5
-  server: 104.200.152.30
-  port: 4145
-- name: Node-48-http-190.97.231.0
-  type: http
-  server: 190.97.231.0
-  port: 999
-- name: Node-49-socks5-184.181.217.213
-  type: socks5
-  server: 184.181.217.213
-  port: 4145
-- name: Node-50-http-154.62.127.105
-  type: http
-  server: 154.62.127.105
-  port: 999
-- name: Node-51-http-147.161.246.34
-  type: http
-  server: 147.161.246.34
-  port: 11581
-- name: Node-52-http-43.161.205.36
-  type: http
-  server: 43.161.205.36
-  port: 80
-- name: Node-53-socks5-98.181.137.80
-  type: socks5
-  server: 98.181.137.80
-  port: 4145
-- name: Node-54-http-138.186.201.77
-  type: http
-  server: 138.186.201.77
-  port: 8083
-- name: Node-55-http-79.98.32.97
-  type: http
-  server: 79.98.32.97
-  port: 8080
-proxy-groups:
-- name: 节点选择
-  type: select
-  proxies:
-  - 自动选择
-  - Node-01-socks5-216.105.143.146
-  - Node-02-socks5-74.119.147.209
-  - Node-03-socks5-72.49.49.11
-  - Node-04-socks5-101.36.104.239
-  - Node-05-http-147.161.246.34
-  - Node-06-http-147.161.246.34
-  - Node-07-http-103.97.141.85
-  - Node-08-socks5-161.35.70.249
-  - Node-09-http-195.205.134.1
-  - Node-10-http-196.1.97.198
-  - Node-11-http-177.93.57.82
-  - Node-12-socks5-142.54.235.9
-  - Node-13-socks5-192.252.209.158
-  - Node-14-socks5-72.195.34.58
-  - Node-15-socks5-184.178.172.14
-  - Node-16-http-154.19.39.50
-  - Node-17-http-149.86.151.202
-  - Node-18-socks5-184.178.172.17
-  - Node-19-socks5-83.237.92.106
-  - Node-20-http-41.90.103.85
-  - Node-21-http-147.161.246.34
-  - Node-22-http-157.15.62.151
-  - Node-23-http-43.229.254.221
-  - Node-24-http-103.48.71.30
-  - Node-25-socks5-103.190.120.79
-  - Node-26-socks5-94.141.178.82
-  - Node-27-http-20.33.10.132
-  - Node-28-socks5-206.220.175.2
-  - Node-29-http-120.28.169.31
-  - Node-30-socks5-2.28.105.45
-  - Node-31-http-103.65.237.92
-  - Node-32-socks5-171.253.90.204
-  - Node-33-http-147.161.246.34
-  - Node-34-http-43.167.240.38
-  - Node-35-socks5-45.74.31.40
-  - Node-36-http-177.234.217.43
-  - Node-37-http-103.191.165.171
-  - Node-38-socks5-202.62.52.20
-  - Node-39-http-8.219.94.23
-  - Node-40-http-43.156.27.20
-  - Node-41-http-165.101.43.125
-  - Node-42-http-103.191.169.126
-  - Node-43-http-45.175.39.64
-  - Node-44-socks5-103.52.114.199
-  - Node-45-socks5-45.194.33.12
-  - Node-46-http-41.220.16.218
-  - Node-47-socks5-104.200.152.30
-  - Node-48-http-190.97.231.0
-  - Node-49-socks5-184.181.217.213
-  - Node-50-http-154.62.127.105
-  - Node-51-http-147.161.246.34
-  - Node-52-http-43.161.205.36
-  - Node-53-socks5-98.181.137.80
-  - Node-54-http-138.186.201.77
-  - Node-55-http-79.98.32.97
-- name: 自动选择
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - Node-01-socks5-216.105.143.146
-  - Node-02-socks5-74.119.147.209
-  - Node-03-socks5-72.49.49.11
-  - Node-04-socks5-101.36.104.239
-  - Node-05-http-147.161.246.34
-  - Node-06-http-147.161.246.34
-  - Node-07-http-103.97.141.85
-  - Node-08-socks5-161.35.70.249
-  - Node-09-http-195.205.134.1
-  - Node-10-http-196.1.97.198
-  - Node-11-http-177.93.57.82
-  - Node-12-socks5-142.54.235.9
-  - Node-13-socks5-192.252.209.158
-  - Node-14-socks5-72.195.34.58
-  - Node-15-socks5-184.178.172.14
-  - Node-16-http-154.19.39.50
-  - Node-17-http-149.86.151.202
-  - Node-18-socks5-184.178.172.17
-  - Node-19-socks5-83.237.92.106
-  - Node-20-http-41.90.103.85
-  - Node-21-http-147.161.246.34
-  - Node-22-http-157.15.62.151
-  - Node-23-http-43.229.254.221
-  - Node-24-http-103.48.71.30
-  - Node-25-socks5-103.190.120.79
-  - Node-26-socks5-94.141.178.82
-  - Node-27-http-20.33.10.132
-  - Node-28-socks5-206.220.175.2
-  - Node-29-http-120.28.169.31
-  - Node-30-socks5-2.28.105.45
-  - Node-31-http-103.65.237.92
-  - Node-32-socks5-171.253.90.204
-  - Node-33-http-147.161.246.34
-  - Node-34-http-43.167.240.38
-  - Node-35-socks5-45.74.31.40
-  - Node-36-http-177.234.217.43
-  - Node-37-http-103.191.165.171
-  - Node-38-socks5-202.62.52.20
-  - Node-39-http-8.219.94.23
-  - Node-40-http-43.156.27.20
-  - Node-41-http-165.101.43.125
-  - Node-42-http-103.191.169.126
-  - Node-43-http-45.175.39.64
-  - Node-44-socks5-103.52.114.199
-  - Node-45-socks5-45.194.33.12
-  - Node-46-http-41.220.16.218
-  - Node-47-socks5-104.200.152.30
-  - Node-48-http-190.97.231.0
-  - Node-49-socks5-184.181.217.213
-  - Node-50-http-154.62.127.105
-  - Node-51-http-147.161.246.34
-  - Node-52-http-43.161.205.36
-  - Node-53-socks5-98.181.137.80
-  - Node-54-http-138.186.201.77
-  - Node-55-http-79.98.32.97
-rules:
-- DOMAIN-SUFFIX,google.com,节点选择
-- DOMAIN-SUFFIX,googleapis.com,节点选择
-- DOMAIN-SUFFIX,gstatic.com,节点选择
-- DOMAIN-SUFFIX,github.com,节点选择
-- DOMAIN-SUFFIX,githubusercontent.com,节点选择
-- GEOIP,CN,DIRECT
-- MATCH,节点选择
+  username: test
+  udp: true
+# ... truncated for call length; full file used in practice
